@@ -8,7 +8,7 @@
 
 <h1>Hello world!</h1>
 <p>This is the first file in my new Git Repo.</p>
-<p>A new line in our file!</p>
+<p>This line is here to show how merging works.</p>
 
 </body>
 </html>
