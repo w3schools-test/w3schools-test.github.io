@@ -26,6 +26,7 @@ If you are not feeling very creative, you can add a quote, or small text like th
 And add your name to it :)
 
 # My change was not approved :(
+Oladsa
 
 We reserve the right remove, or not add, anything that we feel will not fit here.
 Also, this page is a community page, and the content you add may be changed later.
