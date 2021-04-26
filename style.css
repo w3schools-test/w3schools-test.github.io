@@ -1,0 +1,110 @@
+*,:before, :after{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+ul, li{
+    list-style: none;
+}
+a, .link, .btn{
+    text-decoration: none;
+    cursor: pointer;
+}
+header{
+    background:crimson;
+    
+}
+.container{
+    max-width:1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding:0 15px;
+}
+.row{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    min-height:50px;
+}
+.menu{
+    display:flex;
+    transition:all 0.4s;
+    -webkit-transition:all 0.4s;
+    -moz-transition:all 0.4s;
+    -ms-transition:all 0.4s;
+    -o-transition:all 0.4s;
+}
+li.menu-link{
+    display: block;
+    padding:10px 25px;
+}
+a.link{
+    color:#fff;
+    transition:all 0.3s;
+    -webkit-transition:all 0.3s;
+    -moz-transition:all 0.3s;
+    -ms-transition:all 0.3s;
+    -o-transition:all 0.3s;
+}
+li.menu-link:hover >a.link.min{
+    color:rgb(47, 124, 124);
+}
+li.menu-link:hover >a.link.max{
+    color:rgb(255, 0, 242);
+}
+
+.logo a{
+    font-size:30px;
+    color:#fff;
+    font-style:italic;
+}
+.main{
+    min-height:calc(100vh - 50px);
+    background:blueviolet;
+}
+.toggle{
+    display:none;
+    width:30px;
+    height:30px;
+}
+.toggle span{
+    display: block;
+    width:30px;
+    height:3px;
+    background: #fff;
+    margin:3px 0;
+}
+
+@media (max-width:1024px){
+
+    ul.menu{
+        flex-direction: column;
+        width:400px;
+        height:100%;
+        background:crimson;
+        position:fixed;
+        right:0;
+        top:50px;
+        transform: translateX(400px);
+        -webkit-transform: translateX(400px);
+        -moz-transform: translateX(400px);
+        -ms-transform: translateX(400px);
+        -o-transform: translateX(400px);
+}
+ul.menu.active{
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+}
+
+    li.menu-link{padding:15px;
+    border-bottom:1px solid #fff;}
+    .toggle,  
+    a.link{
+        display:block;
+    }
+
+}
