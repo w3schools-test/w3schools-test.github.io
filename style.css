@@ -81,3 +81,8 @@ header.sticky ul li a {
     background: url(bg.jpg);
     background-size: cover;
 }
+
+a img{
+    height: 34px;
+    width: 54px;
+}
