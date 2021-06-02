@@ -18,12 +18,8 @@ You can add almost anything to the index.html file between the indicated comment
 `<!-- Insert your message below here -->`
 
 
+"An apple a day keeps the doctor away!" (Sporian Pilz)
 
-``
-Message Here
-``
-
-and
 
 `<!-- End user messages -->`
 
