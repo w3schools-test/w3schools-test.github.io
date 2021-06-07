@@ -4,7 +4,7 @@ This is the public GitHub project that you can contribute to.
 If you are just getting started, I suggest you start at the tutorial here: https://www.w3schools.com/git
 
 # Leave a message for us!
-This repository is ment to be a place where our users can leave messages for others to see.
+This repository is meant to be a place where our users can leave messages for others to see.
 
 You can see the result here: https://w3schools-test.github.io/
 
@@ -34,5 +34,5 @@ And add your name to it :)
 
 # My change was not approved :(
 
-We reserve the right remove, or not add, anything that we feel will not fit here.
+We reserve the right to remove, or not to add anything that we feel will not fit here.
 Also, this page is a community page, and the content you add may be changed later.
