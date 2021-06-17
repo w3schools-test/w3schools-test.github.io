@@ -20,7 +20,7 @@ You can add almost anything to the index.html file between the indicated comment
 
 
 ``
-Message Here
+GOOD tutorial!! Really enjoying learning from w3schools.
 ``
 
 and
