@@ -23,6 +23,8 @@ You can add almost anything to the index.html file between the indicated comment
 Message Here
 ``
 
+A line to pust to remote repo
+
 and
 
 `<!-- End user messages -->`
