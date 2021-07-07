@@ -252,6 +252,27 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
       <p style="color:white;font-style: italic;">Miguel desde Perú</p>
     </div>
 
+    <div class="w3-panel w3-leftbar w3-light-grey" style="background-color: #222 !important;">
+      <p class="w3-xlarge w3-serif" style="filter: url(#flames); font-weight: bold; color: #eaeaea;">Thank you w3s for this course and the other ones as well! You guys are changing a lot of people's life 😄</p>
+      <p style="color: #eee">Daniel M. from Brazil</p>
+      <svg height="0" width="0" >
+        <filter id="flames" >
+          <feFlood flood-color="#aa4400" result="COLOR"></feFlood>
+          <feTurbulence seed="1" numOctaves="4" baseFrequency="0.08"result="NOISE_MAP">
+              <animate attributeName="baseFrequency" values="0.08; 0.05; 0.08" dur="30s" repeatCount="indefinite"/>
+          </feTurbulence>
+          <feGaussianBlur stdDeviation="0.5" in="SourceAlpha" result="BLUR_TEXT"/>
+          <feDisplacementMap 
+            in="BLUR_TEXT" in2="NOISE_MAP" xChannelSelector="R" yChannelSelector="R" scale="15" result="BLACK_FLAMES"/>
+          <feComposite in="COLOR" in2="BLACK_FLAMES" operator="in" result="COLORED_FLAMES"/>
+          <feMerge>
+            <feMergeNode in="COLORED_FLAMES"></feMergeNode>
+            <feMergeNode in="SourceGraphic"></feMergeNode>
+          </feMerge>
+        </filter>
+      </svg>
+    </div>
+
     <!-- End user messages -->
 
   </div>
