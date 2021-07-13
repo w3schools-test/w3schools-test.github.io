@@ -17,13 +17,9 @@ You can add almost anything to the index.html file between the indicated comment
 
 `<!-- Insert your message below here -->`
 
+"Just because you're trash doesn't mean you can't do anything. Remember, it's garbage can not garbage can't"
 
-
-``
-Message Here
-``
-
-and
+- ZumTheZazaKing (Not my real name of course)
 
 `<!-- End user messages -->`
 
