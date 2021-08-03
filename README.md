@@ -35,4 +35,4 @@ And add your name to it :)
 # My change was not approved :(
 
 We reserve the right to remove, or not to add anything that we feel will not fit here.
-Also, this page is a community page, and the content you add may be changed later.
+Also, this page is a community page, and the content you add may be changed lateruu.
