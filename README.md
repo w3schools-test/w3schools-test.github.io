@@ -20,12 +20,13 @@ You can add almost anything to the index.html file between the indicated comment
 
 
 ``
-Message Here
+
+Learning with git is fun.
 ``
 
 and
 
-`<!-- End user messages -->`
+`<!-- Agustin Dorta from Argentina -->`
 
 So feel free to use your imagination!
 
