@@ -70,7 +70,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
     
     <div style="padding: 10px 20px; background-color: #0093dd; color:#fff; box-shadow:0 1px 2px #555;">
       <em>"Live an object-oriented life!"</em> ~ 
-      Tugbeh Emmanuel <strong>(@2gbeh)<strong>
+      Tugbeh Emmanuel <strong>(@2gbeh)</strong>
     </div>
 
     <div class="w3-panel w3-leftbar w3-light-grey">
@@ -387,7 +387,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
     <div class="w3-panel w3-leftbar w3-light-grey">
       <p>Your courses are soooo amazing. Can you make a tutorial on data structures and algorithms?</p>
       <p>Michael from Nigeria</p>
-      <p class="w3-xlarge w3-serif">Thanks a lot W3Schools  <p>SG from India</p>
+      <p class="w3-xlarge w3-serif">Thanks a lot W3Schools SG from India</p>
     </div>
 
     <div class="w3-panel w3-leftbar w3-light-grey">
@@ -399,7 +399,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
    <div class="w3-panel w3-leftbar w3-light-grey">
       <p>Muchas gracias </p>
       <p>Isabel from Spain</p>
-      <p class="w3-xlarge w3-serif">Thanks a lot W3Schools  <p>SG from India</p>
+      <p class="w3-xlarge w3-serif">Thanks a lot W3Schools SG from India</p>
     </div>
 
     <div class="w3-panel w3-leftbar w3-light-grey">
@@ -467,19 +467,18 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
       <p class="w3-xlarge w3-serif" style="filter: url(#flames); font-weight: bold; color: #eaeaea;">Thank you w3s for this course and the other ones as well! You guys are changing a lot of people's life 😄</p>
       <p style="color: #eee">Daniel M. from Brazil</p>
       <svg height="0" width="0" >
-        <filter id="flames" >
-          <feFlood flood-color="#aa4400" result="COLOR"></feFlood>
-          <feTurbulence seed="1" numOctaves="4" baseFrequency="0.08"result="NOISE_MAP">
+        <filter id="flames">
+          <feflood flood-color="#aa4400" result="COLOR"></feflood>
+          <feturbulence seed="1" numOctaves="4" baseFrequency="0.08" result="NOISE_MAP">
               <animate attributeName="baseFrequency" values="0.08; 0.05; 0.08" dur="30s" repeatCount="indefinite"/>
-          </feTurbulence>
-          <feGaussianBlur stdDeviation="0.5" in="SourceAlpha" result="BLUR_TEXT"/>
-          <feDisplacementMap
-            in="BLUR_TEXT" in2="NOISE_MAP" xChannelSelector="R" yChannelSelector="R" scale="15" result="BLACK_FLAMES"/>
-          <feComposite in="COLOR" in2="BLACK_FLAMES" operator="in" result="COLORED_FLAMES"/>
-          <feMerge>
-            <feMergeNode in="COLORED_FLAMES"></feMergeNode>
-            <feMergeNode in="SourceGraphic"></feMergeNode>
-          </feMerge>
+          </feturbulence>
+          <fegaussianblur stdDeviation="0.5" in="SourceAlpha" result="BLUR_TEXT"/>
+          <fedisplacementmap in="BLUR_TEXT" in2="NOISE_MAP" xChannelSelector="R" yChannelSelector="R" scale="15" result="BLACK_FLAMES"/>
+          <fecomposite in="COLOR" in2="BLACK_FLAMES" operator="in" result="COLORED_FLAMES"/>
+          <femerge>
+            <femergenode in="COLORED_FLAMES"></femergenode>
+            <femergenode in="SourceGraphic"></femergenode>
+          </femerge>
         </filter>
       </svg>
     </div>
@@ -511,7 +510,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 
     <div class="w3-panel w3-leftbar w3-light-grey">
       <p class="w3-xlarge w3-serif"><i>"the most important thing in coding is to have fun doing it."</i></p>
-      <p class="w3-xlarge w3-serif"><i>"& remember to kow your limits and try to break it everytime you stuck in something."</i></p>
+      <p class="w3-xlarge w3-serif"><i>"&amp; remember to kow your limits and try to break it everytime you stuck in something."</i></p>
       <p>mahmoud bebars</p>
     </div>
 
@@ -554,7 +553,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
     </div>
     
     <div class="w3-panel w3-leftbar w3-light-gray">
-      <p class="w3-xlarge w3-serif"><i>"Thank you W3Schools for Git and GitHub tutorial. I learnt a lot of stuff from you <3"</i></p>
+      <p class="w3-xlarge w3-serif"><i>"Thank you W3Schools for Git and GitHub tutorial. I learnt a lot of stuff from you &gt;3"</i></p>
       <p>Salter Soang</p>
     </div>
 
@@ -577,6 +576,11 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
       <p class="w3-xlarge w3-serif">Amazing tutorial, really helped me out, thanks guys.</p>
       <p>Balo From Brazil</p>
     </div>
+    <div class="w3-panel w3-leftbar w3-light-grey">
+  <p class="w3-xlarge w3-serif">
+  <i>Thanks for the Great tutorial(s)!</i></p>
+  <p>Nobedee</p>
+</div>
     <!-- End user messages -->
   </div>
 </div>
