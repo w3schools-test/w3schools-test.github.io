@@ -16,7 +16,7 @@ We will not allow messages that are negative, or hurtful. Try to be welcome and 
 You can add almost anything to the index.html file between the indicated comments:
 
 `<!-- Insert your message below here -->`
-
+- This message is wrote by a man who want to learn to become a great sortware developer . I am trying and will keep doing that for a long time 
 and
 
 `<!-- End user messages -->`
