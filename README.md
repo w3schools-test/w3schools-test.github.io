@@ -17,7 +17,7 @@ You can add almost anything to the index.html file between the indicated comment
 
 `<!-- Insert your message below here -->`
 
-and
+My name is Tran Nguyen Anh Khoa. Say hello from Vietnam <3
 
 `<!-- End user messages -->`
 
