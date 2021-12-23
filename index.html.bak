@@ -64,14 +64,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
     </div>
 
     <!-- Insert your message below here -->
-    
-	    <div class="w3-panel w3-leftbar w3-hover-shadow w3-sand w3-hover-text-blue">
-      <h2>Newbie</h2>
-      <i>Fun with w3 &#128525</i>
-      <p>DrLoveys med technology</p>
-    </div>
-	
-	<div class="w3-panel w3-leftbar w3-blue">
+    <div class="w3-panel w3-leftbar w3-blue">
       <p class="w3-xxlarge w3-monospace">
       <i>"Your are awesome W3school. You are my mentor."</i></p>
       <p>Swalih t, 21.12.2021</p>
