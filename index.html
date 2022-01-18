@@ -8,7 +8,25 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <style>
 html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
-.w3-tag {height:15px;width:15px;padding:0;margin-top:6px;cursor:pointer}
+    .w3-tag {height:15px;width:15px;padding:0;margin-top:6px;cursor:pointer}
+    .gradAnimCls {
+      background: linear-gradient(-90deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	    background-size: 400% 400%;
+	    animation: gradient 15s ease infinite;
+	    height: 100px;
+      color: white;
+    }
+    @keyframes gradient {
+	    0% {
+		    background-position: 0% 50%;
+	    }
+	    50% {
+		    background-position: 100% 50%;
+	    }
+	    100% {
+		    background-position: 0% 50%;
+	    }
+    }
 </style>
 </head>
 <body>
@@ -103,7 +121,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 
     <div class="w3-panel w3-leftbar w3-sand">
       <p class="w3-xxlarge w3-monospace">
-      <i>"w3schools is best, providing amazing content"</i></p>
+      <i>"w3schools is the best, providing amazing content"</i></p>
       <p>kushal 11.1.2022</p>
     </div>
 
@@ -1205,6 +1223,11 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
     <div>
       <h1>Welcome everybody!</h1>
       <p>Greetings from Pcim, 2022-01-15</p>
+    </div>
+
+    <div class="gradAnimCls">
+      <h1>Big ups!</h1>
+      <p>Simple, fun, and extremely helpful. Thank you</p>
     </div>
 
     <div
