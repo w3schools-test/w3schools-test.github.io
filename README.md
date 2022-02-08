@@ -17,7 +17,7 @@ You can add almost anything to the index.html file between the indicated comment
 
 `<!-- Insert your message below here -->`
 
-and
+Thanks to w3schools.com! I learnt a lot from your website.
 
 `<!-- End user messages -->`
 
