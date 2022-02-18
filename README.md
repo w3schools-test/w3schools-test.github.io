@@ -30,3 +30,7 @@ And add your name to it :)
 
 We reserve the right to remove, or not to add anything that we feel will not fit here.
 Also, this page is a community page, and the content you add may be changed later.
+
+
+# My message 
+Don't lose the hope you could be better in the near future because you're always better 
