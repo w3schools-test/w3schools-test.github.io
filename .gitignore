@@ -1,4 +1,3 @@
 #ignore All .log files
 *.log
-#ignore All files in ANY directory name temp
-si/
+*.htm
