@@ -15,11 +15,11 @@ We will not allow messages that are negative, or hurtful. Try to be welcome and 
 
 You can add almost anything to the index.html file between the indicated comments:
 
-`<!-- Insert your message below here -->`
+`Many cheers from Romania`
 
 and
 
-`<!-- End user messages -->`
+`I'm trying to learn Git for QA path`
 
 So feel free to use your imagination!
 
