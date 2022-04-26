@@ -1,0 +1,11 @@
+
+
+
+.section{
+    width: 400px;
+    margin:7px auto;
+    height: 69px;
+    box-shadow: 0 1px 2px rgba( 0, 0, 0, .2 );
+    overflow: hidden;
+    transition: 35s;
+}
