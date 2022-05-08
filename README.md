@@ -25,7 +25,7 @@ So feel free to use your imagination!
 
 If you are not feeling very creative, you can add a quote, or small text like the examples on this page: https://www.w3schools.com/w3css/w3css_quotes.asp
 And add your name to it :)
-
+test
 # My change was not approved :(
 
 We reserve the right to remove, or not to add anything that we feel will not fit here.
