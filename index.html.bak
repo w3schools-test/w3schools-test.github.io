@@ -2052,7 +2052,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 	text-align: center;
 	
 	">
-	<p style="font-size: 25px; color: #aaa;"><em style="color: #fff">Learning to code is an important part in Computer Science</em>
+	<p style="font-size: 25px; color: #aaa;"><em>Learning to code is an important part in Computer Science</em>
 	<br /><i>-MosesInnovator</i></p>
 	</div>
     <!-- guy who doesnot knows HTML was also here -->
