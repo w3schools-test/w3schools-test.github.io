@@ -1,5 +1,7 @@
 # Guestbook for w3schools.com Git tutorial
 
+CHALUPA BAZOOKA BEEN HERE, SALUDOS DE ORURO
+
 This is the public GitHub project that you can contribute to.
 If you are just getting started, I suggest you start at the tutorial here: https://www.w3schools.com/git
 
@@ -8,7 +10,7 @@ This repository is meant to be a place where our users can leave messages for ot
 
 You can see the result here: https://w3schools-test.github.io/
 
-We generally only have one condition: 
+We generally only have one condition:
 We will not allow messages that are negative, or hurtful. Try to be welcome and positive!
 
 # What should my message look like?
