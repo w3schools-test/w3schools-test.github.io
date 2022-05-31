@@ -17,7 +17,7 @@ We will not allow messages that are negative, or hurtful. Try to be welcome and 
 You can add almost anything to the index.html file between the indicated comments:
 
 `<!-- Insert your message below here -->`
-HEY Whats'up!!! I wish so, You will reach your finish! Just don't live it!
+HEY Whats'up!!! I wish so, You will reach your finish! Just don't live it!!!
 
 `<!-- End user messages -->`
 
