@@ -17,7 +17,7 @@ You can add almost anything to the index.html file between the indicated comment
 
 `<!-- Insert your message below here -->`
 
-this is message from Humayun Kabir https://github.com/KabirFirm
+this is message from Humayun Kabir https://github.com/KabirFirm.
 
 `<!-- End user messages -->`
 
