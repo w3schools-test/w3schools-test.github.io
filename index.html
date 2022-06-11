@@ -64,8 +64,22 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
     <div class="w3-center w3-padding-64">
       <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Leave A Message</span>
     </div>
-
-    <!-- Insert your message below here -->
+ 
+    <!-- My commit here -->
+    <div class="w3-panel w3-cyan w3-text-white w3-xlarge w3-border-blue w3-bottombar">
+      <p>Igor made this commit <span id="aakash-dinkar-commit-time"></span></p>
+      <p>
+        <i class="w3-xlarge w3-serif">
+          ElectroBoom !!!
+        </i>
+      </p>
+      <script>
+        const dateOfCommit = new Date('June 10, 2022 12:00:00');
+        const todayDate = new Date();
+        const diffInHrs = ((todayDate-dateOfCommit)/(1000*60*60)).toFixed(1);
+        document.getElementById('aakash-dinkar-commit-time').innerHTML = diffInHrs + " hrs ago.";
+      </script>
+    </div>
 
     <!-- Aakash Dinkar commited here -->
     <div class="w3-panel w3-cyan w3-text-white w3-xlarge w3-border-blue w3-bottombar">
