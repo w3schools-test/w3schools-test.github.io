@@ -17,7 +17,12 @@ You can add almost anything to the index.html file between the indicated comment
 
 `<!-- Insert your message below here -->`
 
-and
+<div class="w3-panel w3-light-grey">
+  <span style="font-size:150px;line-height:0.6em;opacity:0.2">&#10077;</span>
+  <p class="w3-xlarge" style="margin-top:-40px">
+  <i>"感谢w3schools"</i></p>
+  <p>Verolls 2022/06/14 from China</p>
+</div>
 
 `<!-- End user messages -->`
 
