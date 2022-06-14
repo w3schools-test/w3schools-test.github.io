@@ -16,14 +16,7 @@ We will not allow messages that are negative, or hurtful. Try to be welcome and 
 You can add almost anything to the index.html file between the indicated comments:
 
 `<!-- Insert your message below here -->`
-
-<div class="w3-panel w3-light-grey">
-  <span style="font-size:150px;line-height:0.6em;opacity:0.2">&#10077;</span>
-  <p class="w3-xlarge" style="margin-top:-40px">
-  <i>"感谢w3schools"</i></p>
-  <p>Verolls 2022/06/14 from China</p>
-</div>
-
+and
 `<!-- End user messages -->`
 
 So feel free to use your imagination!
