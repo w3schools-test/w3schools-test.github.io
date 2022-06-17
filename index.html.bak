@@ -68,14 +68,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 
     <!-- Insert your message below here -->
 
-    <!-- Elmar A added this-->
-    <div class="w3-panel w3-leftbar w3-green">
-      <p class="w3-text-white w3-monospace w3-xxlarge">Thanks for your tutorial!</p>
-      <p class="w3-text-white w3-wide w3-roboto">Elmar from Philippines</p>
-      <p class="w3-text-white w3-wide w3-roboto">Welcome to Philippines!</p>
-    </div>
-	
-	<!-- Message from Ho Chi Minh City, Vietnam -->
+    <!-- Message from Ho Chi Minh City, Vietnam -->
     <div class="w3-panel w3-leftbar w3-green">
       <p class="w3-text-white w3-monospace w3-xxlarge">Thanks for your tutorial!</p>
       <p class="w3-text-white w3-wide w3-roboto">Alan from Vietnam</p>
@@ -2597,8 +2590,6 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
       <H1>BB</H1><br>
       <h2>From Google 6/15/22</h2></p>
     </div>
-	
-	
 
     <!-- End user messages -->
   </div>
