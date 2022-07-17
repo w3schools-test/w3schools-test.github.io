@@ -17,8 +17,7 @@ You can add almost anything to the index.html file between the indicated comment
 
 `<!-- Insert your message below here -->`
 
-and
-
+This is new line
 `<!-- End user messages -->`
 
 So feel free to use your imagination!
@@ -30,4 +29,3 @@ And add your name to it :)
 
 We reserve the right to remove, or not to add anything that we feel will not fit here.
 Also, this page is a community page, and the content you add may be changed later.
-This is new line
