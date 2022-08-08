@@ -17,7 +17,22 @@ You can add almost anything to the index.html file between the indicated comment
 
 `<!-- Insert your message below here -->`
 
-and
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+<div class="w3-panel w3-leftbar w3-sand">
+    <p class="w3-xxlarge w3-serif"><i>"My love for w3schools.com is unlimited, it has been a helping hand for me right from beginning Thanks for all you do. You are the best."</i></p>
+    <h2>Hammed Bello from Nigeria</h2>
+</div>
+
+
+</body>
+</html>
+
 
 `<!-- End user messages -->`
 
