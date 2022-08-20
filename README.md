@@ -10,6 +10,7 @@ You can see the result here: https://w3schools-test.github.io/
 
 We generally only have one condition: 
 We will not allow messages that are negative, or hurtful. Try to be welcome and positive!
+And never stop learning with [w3schools](https://www.w3schools.com)
 
 # What should my message look like?
 
@@ -30,3 +31,4 @@ And add your name to it :)
 
 We reserve the right to remove, or not to add anything that we feel will not fit here.
 Also, this page is a community page, and the content you add may be changed later.
+Thank you.
