@@ -6,7 +6,7 @@ If you are just getting started, I suggest you start at the tutorial here: https
 # Leave a message for us!
 This repository is meant to be a place where our users can leave messages for others to see.
 
-You can see the result here: https://w3schools-test.github.io/
+You can see the result here: https://w3school-test.github.io/
 
 We generally only have one condition: 
 We will not allow messages that are negative, or hurtful. Try to be welcome and positive!
@@ -29,4 +29,4 @@ And add your name to it :)
 # My change was not approved :(
 
 We reserve the right to remove, or not to add anything that we feel will not fit here.
-Also, this page is a community page, and the content you add may be changed later.
+Also, this page is a community page, and the content you add may be changed later
