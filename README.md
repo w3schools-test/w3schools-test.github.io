@@ -20,6 +20,8 @@ You can add almost anything to the index.html file between the indicated comment
 ❝
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non massa vitae risus fermentum ullamcorper. Phasellus risus urna, ornare in aliquam id, porttitor sit amet sapien. Nulla facilisi."
 
+"just another quote"
+
 `<!-- End user messages -->`
 
 So feel free to use your imagination!
