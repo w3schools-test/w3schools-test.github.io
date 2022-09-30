@@ -20,6 +20,7 @@ You can add almost anything to the index.html file between the indicated comment
 and
 
 `<!-- End user messages -->`
+w3 schools are cool
 
 So feel free to use your imagination!
 
