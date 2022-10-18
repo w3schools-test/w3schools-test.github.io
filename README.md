@@ -16,11 +16,11 @@ We will not allow messages that are negative, or hurtful. Try to be welcome and 
 You can add almost anything to the index.html file between the indicated comments:
 
 `<!-- Insert your message below here -->`
-I'm inserting my message. Spread positivity. iks de.
+
 
 and
 
-I'm ending my message. There's no point.
+
 `<!-- End user messages -->`
 
 So feel free to use your imagination!
