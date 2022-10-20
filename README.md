@@ -16,9 +16,13 @@ We will not allow messages that are negative, or hurtful. Try to be welcome and 
 You can add almost anything to the index.html file between the indicated comments:
 
 `<!-- Insert your message below here -->`
+<div class="w3-panel w3-leftbar w3-sand">
+  <p class="w3-xxlarge w3-serif">
+  <i>"Thank You for the tutorial. This has been very helpful."</i></p>
+  <p>Aabid Farooq from Kashmir</p>
+</div>
 
-Thank You for the tutorial. This has been very helpful.
-Aabid Farooq from Kashmir
+
 
 `<!-- End user messages -->`
 
