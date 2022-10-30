@@ -16,8 +16,21 @@ We will not allow messages that are negative, or hurtful. Try to be welcome and 
 You can add almost anything to the index.html file between the indicated comments:
 
 `<!-- Insert your message below here -->`
-
-and
+"When I consider everything that grows
+Holds in perfection but a little moment,
+That this huge stage presenteth nought but shows
+Whereon the stars in secret influence comment;
+When I perceive that men as plants increase,
+Cheerèd and checked even by the selfsame sky,
+Vaunt in their youthful sap, at height decrease,
+And wear their brave state out of memory;
+Then the conceit of this inconstant stay
+Sets you most rich in youth before my sight,
+Where wasteful Time debateth with Decay
+To change your day of youth to sullied night;
+And, all in war with Time for love of you,
+As he takes from you, I engraft you new."
+--- William Shakespeare Sonnet 15
 
 `<!-- End user messages -->`
 
