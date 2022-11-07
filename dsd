@@ -1,0 +1,532 @@
+[33mcommit 19c1ea5d9a419a7c00c10b8f872d68164ef46082[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 3814d82 9911846
+Author: w3schools-test <77673807+w3schools-test@users.noreply.github.com>
+Date:   Wed Nov 2 09:12:07 2022 +0100
+
+    Merge pull request #1182 from bulatmaster/master
+    
+    Added my Hello
+
+[33mcommit 3814d8221d1a9c91b7e8a36cbf4477e092b6eed1[m
+Merge: b42e2cf 882c527
+Author: w3schools-test <77673807+w3schools-test@users.noreply.github.com>
+Date:   Wed Nov 2 09:11:47 2022 +0100
+
+    Merge pull request #1181 from gt7219b/master
+    
+    Great course
+
+[33mcommit b42e2cf3b1d915dce97422290921a1ba2b444168[m
+Merge: a4a74c0 2635acd
+Author: w3schools-test <77673807+w3schools-test@users.noreply.github.com>
+Date:   Wed Nov 2 09:11:23 2022 +0100
+
+    Merge pull request #1180 from JDL27/master
+    
+    index.html: Added message from Juergen
+
+[33mcommit 9911846f2ff6f1133f6b25bd8071358918511de6[m
+Author: Bulat Bogdanov linux <bulatmaster73@gmail.com>
+Date:   Wed Nov 2 03:07:19 2022 +0500
+
+    Added my Hello
+
+[33mcommit 882c5270858aa39e0f836b8e7383f3a23f8f68c2[m
+Author: gt7219b <bradschafer@protonmail.com>
+Date:   Tue Nov 1 16:38:31 2022 -0400
+
+    Add note to public guestbook
+
+[33mcommit 2635acdb136105bb04e293ab1fa9d53c289e179f[m
+Merge: 1b8dc26 a4a74c0
+Author: JDL27 <JDL27@users.noreply.github.com>
+Date:   Tue Nov 1 19:54:55 2022 +0100
+
+    Merge branch 'w3schools-test:master' into master
+
+[33mcommit 1b8dc26313eda633b6341a200c49366af940d905[m
+Author: jdl27 <JDL27@users.noreply.github.com>
+Date:   Tue Nov 1 19:49:34 2022 +0100
+
+    Message from Juergen
+
+[33mcommit a4a74c072aa07c005d864787b44b0c0151af4d64[m
+Merge: 0845ffa 75e8a49
+Author: w3schools-test <77673807+w3schools-test@users.noreply.github.com>
+Date:   Tue Nov 1 12:09:33 2022 +0100
+
+    Merge pull request #1178 from Starko1/master
+    
+    Changed to serve as public guestbook
+
+[33mcommit 75e8a49f6f64363be563acd6eec92440a677eb82[m
+Merge: 8426032 0845ffa
+Author: w3schools-test <77673807+w3schools-test@users.noreply.github.com>
+Date:   Tue Nov 1 12:09:25 2022 +0100
+
+    Merge branch 'master' into master
+
+[33mcommit 0845ffae15574a9dcad6276cb1de472dc9b3beff[m
+Merge: 3343004 7ee2c68
+Author: w3schools-test <77673807+w3schools-test@users.noreply.github.com>
+Date:   Tue Nov 1 12:07:49 2022 +0100
+
+    Merge pull request #1175 from sixvxsh/master
+    
+    Updated index.html. with a Message Line
+
+[33mcommit 3343004af58d790b87458d9b7cd8d87e72f8d52b[m
+Merge: a4f708c 1adc79d
+Author: w3schools-test <77673807+w3schools-test@users.noreply.github.com>
+Date:   Tue Nov 1 12:07:29 2022 +0100
+
+    Merge pull request #1174 from davidaryasetia/master
+    
+    Change to served as a public guestbook
+
+[33mcommit a4f708c6903d9786e8da509bcff24bc64b7a56d9[m
+Merge: 918fc3c b6d155e
+Author: w3schools-test <77673807+w3schools-test@users.noreply.github.com>
+Date:   Tue Nov 1 12:07:10 2022 +0100
+
+    Merge pull request #1173 from Jeff1999/master
+    
+    Add a message from Yifan
+
+[33mcommit 918fc3c4b7dca280196973d50446240196224c83[m
+Merge: cca5451 78bdd1a
+Author: w3schools-test <77673807+w3schools-test@users.noreply.github.com>
+Date:   Tue Nov 1 12:06:50 2022 +0100
+
+    Merge pull request #1172 from lucvan02/master
+    
+    New line in index.html
+
+[33mcommit 78bdd1afdb57e39e69496672fd4991008f468898[m
+Merge: cf78e23 cca5451
+Author: w3schools-test <77673807+w3schools-test@users.noreply.github.com>
+Date:   Tue Nov 1 12:06:44 2022 +0100
+
+    Merge branch 'master' into master
+
+[33mcommit cca5451eeea2e97d405b4f38c6945b4b61b25d80[m
+Merge: f570e83 8bf2dbf
+Author: w3schools-test <77673807+w3schools-test@users.noreply.github.com>
+Date:   Tue Nov 1 12:06:03 2022 +0100
+
+    Merge pull request #1171 from Emere0/master
+    
+    Added my thankful message.
+
+[33mcommit 8bf2dbfee43b25f0054866cbbd51dc67ef898b97[m
+Merge: a3372b3 f570e83
+Author: w3schools-test <77673807+w3schools-test@users.noreply.github.com>
+Date:   Tue Nov 1 12:05:56 2022 +0100
+
+    Merge branch 'master' into master
+
+[33mcommit f570e83f26ab9dc4c760f1e7fb4fbecb9aa63fcb[m
+Merge: 7669c4e 3b9aa8a
+Author: w3schools-test <77673807+w3schools-test@users.noreply.github.com>
+Date:   Tue Nov 1 12:04:17 2022 +0100
+
+    Merge pull request #1167 from yayatnht/master
+    
+    added text to html
+
+[33mcommit 3b9aa8acda0ee075b10dcd3c51c1f09ac615cc57[m
+Merge: d9ba0ee 7669c4e
+Author: w3schools-test <77673807+w3schools-test@users.noreply.github.com>
+Date:   Tue Nov 1 12:04:09 2022 +0100
+
+    Merge branch 'master' into master
+
+[33mcommit 7669c4e661f5519f47510a343cdc9efb8e7c8180[m
+Merge: 8783d8a 4a49d38
+Author: w3schools-test <77673807+w3schools-test@users.noreply.github.com>
+Date:   Tue Nov 1 11:27:50 2022 +0100
+
+    Merge pull request #1165 from Hemraj-web/patch-1
+    
+    Update index.html
+
+[33mcommit 8783d8ae87e47f389e5e2106ba0e8fa06fcf37d1[m
+Merge: 8b40bdb e71118d
+Author: w3schools-test <77673807+w3schools-test@users.noreply.github.com>
+Date:   Tue Nov 1 11:27:15 2022 +0100
+
+    Merge pull request #1163 from raajanubh/master
+    
+    message added by ANUBHAV
+
+[33mcommit 8b40bdb366c8d9554bed46f88ee6171fe98aca53[m
+Merge: ab96586 1018bf4
+Author: w3schools-test <77673807+w3schools-test@users.noreply.github.com>
+Date:   Tue Nov 1 11:26:51 2022 +0100
+
+    Merge pull request #1162 from ofirlang/master
+    
+    Updated index.html by ofirl
+
+[33mcommit 1018bf405ae741e2104066b5598c634f58a7b870[m
+Merge: 4c4218f ab96586
+Author: w3schools-test <77673807+w3schools-test@users.noreply.github.com>
+Date:   Tue Nov 1 11:26:44 2022 +0100
+
+    Merge branch 'master' into master
+
+[33mcommit ab96586c942039139456de707477c39a925eeb58[m
+Merge: f1710d0 716a27a
+Author: w3schools-test <77673807+w3schools-test@users.noreply.github.com>
+Date:   Tue Nov 1 11:25:57 2022 +0100
+
+    Merge pull request #1161 from brixdesalit7/master
+    
+    Added a new message
+
+[33mcommit 716a27ab79ed4a461a4b054d20ac90b828264d22[m
+Merge: 3d1cffd f1710d0
+Author: w3schools-test <77673807+w3schools-test@users.noreply.github.com>
+Date:   Tue Nov 1 11:25:51 2022 +0100
+
+    Merge branch 'master' into master
+
+[33mcommit f1710d0ad32ccb236b50feeefcfdeca2eb56d064[m
+Merge: f278a55 8476e9a
+Author: w3schools-test <77673807+w3schools-test@users.noreply.github.com>
+Date:   Tue Nov 1 11:25:16 2022 +0100
+
+    Merge pull request #1159 from Aibar77/master
+    
+    Add new text in index.html
+
+[33mcommit 8476e9a3c6360c4ff9cc98fed7c4feddd1a54dff[m
+Merge: 1a16a20 f278a55
+Author: w3schools-test <77673807+w3schools-test@users.noreply.github.com>
+Date:   Tue Nov 1 11:25:10 2022 +0100
+
+    Merge branch 'master' into master
+
+[33mcommit f278a5512422964aba175e6b4426a985cec2a472[m
+Merge: 3517b67 0bf7ae2
+Author: w3schools-test <77673807+w3schools-test@users.noreply.github.com>
+Date:   Tue Nov 1 11:24:24 2022 +0100
+
+    Merge pull request #1158 from weisheng1998/master
+    
+    Added ws message to index.html
+
+[33mcommit 0bf7ae2c9fd5df0ff3625abc81133731e8cd1ded[m
+Merge: 74c23c3 3517b67
+Author: w3schools-test <77673807+w3schools-test@users.noreply.github.com>
+Date:   Tue Nov 1 11:24:18 2022 +0100
+
+    Merge branch 'master' into master
+
+[33mcommit 3517b67d285a81e32018708bbaa5d6d8537cfeb5[m
+Merge: ca86852 7d6f3d5
+Author: w3schools-test <77673807+w3schools-test@users.noreply.github.com>
+Date:   Tue Nov 1 11:23:42 2022 +0100
+
+    Merge pull request #1155 from BelowSeaLevel/master
+    
+    Added my self
+
+[33mcommit ca8685284065ee19be9d2f96118b26089d18762c[m
+Merge: 7bbb029 1b63f12
+Author: w3schools-test <77673807+w3schools-test@users.noreply.github.com>
+Date:   Tue Nov 1 11:23:22 2022 +0100
+
+    Merge pull request #1154 from jaber94/master
+    
+    adding a new line by jaber zakik from morocco
+
+[33mcommit 7bbb0291935cc3c144f11bf7d8624e80b129fc77[m
+Merge: 1f15cec e04e71c
+Author: w3schools-test <77673807+w3schools-test@users.noreply.github.com>
+Date:   Tue Nov 1 11:22:32 2022 +0100
+
+    Merge pull request #1151 from Madhava04A/master
+    
+    done modifying
+
+[33mcommit 8426032d31852e032b2bb3dc90e815de872e7076[m
+Author: Starko1 <starship432@tuta.io>
+Date:   Mon Oct 31 16:32:21 2022 +0100
+
+    Added my word
+
+[33mcommit 7ee2c68009a6aa533d87ce578de19e34c339e8f6[m
+Author: sixvxsh <sixvxsh.j@gmail.com>
+Date:   Mon Oct 31 15:24:50 2022 +0330
+
+    Updated index.html. with a Message Line
+
+[33mcommit 1adc79d49dbee7937f4a3f2ecc76fefbfa8b0981[m
+Author: david-aryasetia <david.aryasetia@gmail.com>
+Date:   Mon Oct 31 09:58:08 2022 +0700
+
+    add guestbook
+
+[33mcommit 4297d31e928fc7ad89f556d0ab481bfede59d7b5[m
+Author: david-aryasetia <david.aryasetia@gmail.com>
+Date:   Mon Oct 31 09:49:37 2022 +0700
+
+    adding many-many text
+
+[33mcommit b6d155e402d39118263a98544e30e639cb6339be[m
+Author: Jeff1999 <yifan-luo@qq.com>
+Date:   Mon Oct 31 13:02:03 2022 +1100
+
+    Add a message from Yifan
+
+[33mcommit cf78e23d91283e9b11b7015f01c63bcc4da4da64[m
+Author: Luc Van <vanlucmc@gmail.com>
+Date:   Mon Oct 31 01:33:39 2022 +0700
+
+    New line in index.html
+
+[33mcommit a3372b3f5d7fd816528751bde23680d3e9a45cfd[m
+Author: Emre SARIMEHMET <emre012@hotmail.com>
+Date:   Sun Oct 30 20:53:07 2022 +0300
+
+    Added my thankful message.
+
+[33mcommit d9ba0ee1d668ea63fe9cd3416f4119c7f2719852[m
+Author: yayatnht <saiayayatganteng@gmail.com>
+Date:   Sun Oct 30 09:14:52 2022 +0700
+
+    added text to html
+
+[33mcommit 4a49d385fba5c23e49cbac017347287978663309[m
+Author: Hem Raj Bhatt <77946420+Hemraj-web@users.noreply.github.com>
+Date:   Sun Oct 30 00:22:47 2022 +0100
+
+    Update index.html
+    
+    some text from nepal
+
+[33mcommit e71118daa423ca29c93adc22725717596d7e2aed[m
+Author: anubhavRAJ <anubhav.raj2@gmail.com>
+Date:   Sat Oct 29 05:10:09 2022 -0700
+
+    message added by ANUBHAV
+
+[33mcommit 4c4218f4b78a211f8e22bc70eb39a741dbb470c8[m
+Author: ofirl <ofirlang12@gmail.com>
+Date:   Sat Oct 29 15:00:12 2022 +0300
+
+    Updated index.html by ofirl
+
+[33mcommit 3d1cffdf97bbc078f0f2abc1e34aa788035f50af[m
+Author: brixdesalit7 <brixdesalit7@gmail.com>
+Date:   Sat Oct 29 11:50:01 2022 +0800
+
+    added message
+
+[33mcommit 1a16a2027dfbed2dba83a26cdc6d0631e7217e71[m
+Author: Mambet Aibar <mambetaibar@gmail.com>
+Date:   Fri Oct 28 20:18:52 2022 +0600
+
+    Add new text in index.html
+
+[33mcommit 74c23c30b2d51dab61973ac9aa50a5fa97a5c6ed[m
+Author: weisheng1998 <winsonlim1028@gmail.com>
+Date:   Fri Oct 28 19:40:57 2022 +0800
+
+    update indec.html with ws message
+
+[33mcommit fa9f22bbeddb98f277d498641f2c2ae73d125553[m
+Author: weisheng1998 <winsonlim1028@gmail.com>
+Date:   Fri Oct 28 19:38:14 2022 +0800
+
+    Update index.html with weisheng appreciation message
+
+[33mcommit 7d6f3d5810e0b6fbc2ba03559696c69b695608bf[m
+Author: BelowSeaLevel <brrooseboom@gmail.com>
+Date:   Thu Oct 27 20:17:51 2022 +0200
+
+    Added my self
+
+[33mcommit 1b63f12970a0f4913578c2116be5d5dd39190b9d[m
+Author: jaber94 <jaber.zakik@gmail.com>
+Date:   Thu Oct 27 17:27:21 2022 +0100
+
+    adding a new line by jaber zakik from morocco
+
+[33mcommit e04e71cec3a779b6c933d16c35c229e9a9cdbec0[m
+Merge: 9d90dcc 1f15cec
+Author: Madhava04A <115212060+Madhava04A@users.noreply.github.com>
+Date:   Thu Oct 27 16:36:43 2022 +0530
+
+    Merge branch 'w3schools-test:master' into master
+
+[33mcommit 9d90dccb96e9b813619b9771f98a352ff93c44aa[m
+Author: Madhava <madhavaathreya@gmail.com>
+Date:   Thu Oct 27 16:02:43 2022 +0530
+
+    done modifying
+
+[33mcommit 1f15cec2d4488ad007e2650fc719f23580a118eb[m
+Merge: 5c94021 5741432
+Author: w3schools-test <77673807+w3schools-test@users.noreply.github.com>
+Date:   Thu Oct 27 12:13:25 2022 +0200
+
+    Merge pull request #1147 from DenisVRix/master
+    
+    changed index file
+
+[33mcommit 5741432b011b999414e353508e04051ef2613a7f[m
+Merge: c79430c 5c94021
+Author: w3schools-test <77673807+w3schools-test@users.noreply.github.com>
+Date:   Thu Oct 27 12:13:16 2022 +0200
+
+    Merge branch 'master' into master
+
+[33mcommit 5c9402115cd41d0af94bed96eae429a0b800f4dd[m
+Merge: d011ff2 0d2dc83
+Author: w3schools-test <77673807+w3schools-test@users.noreply.github.com>
+Date:   Thu Oct 27 12:12:22 2022 +0200
+
+    Merge pull request #1146 from Iskuzmi/master
+    
+    Added my message to the public guestbook
+
+[33mcommit d011ff2e035224bffe37b3bf18a8df8407f3357f[m
+Merge: 76fc7a5 afbbe62
+Author: w3schools-test <77673807+w3schools-test@users.noreply.github.com>
+Date:   Thu Oct 27 12:12:02 2022 +0200
+
+    Merge pull request #1145 from Ojofudaniel/master
+    
+    i included a text
+
+[33mcommit 76fc7a5ff935796f37542b662cf77cd36dfe4ab5[m
+Merge: 8596fc1 1e595fe
+Author: w3schools-test <77673807+w3schools-test@users.noreply.github.com>
+Date:   Thu Oct 27 12:11:36 2022 +0200
+
+    Merge pull request #1143 from TaiwoEnoch/master
+    
+    Include my salutions
+
+[33mcommit 1e595fe1b411cbd230aac87226622e132d977d54[m
+Merge: 8ca7859 8596fc1
+Author: w3schools-test <77673807+w3schools-test@users.noreply.github.com>
+Date:   Thu Oct 27 12:11:23 2022 +0200
+
+    Merge branch 'master' into master
+
+[33mcommit 8596fc118533d06b60748f7e44d8004a95181c31[m
+Merge: aec5ea4 65afd2c
+Author: w3schools-test <77673807+w3schools-test@users.noreply.github.com>
+Date:   Thu Oct 27 12:10:35 2022 +0200
+
+    Merge pull request #1149 from tarun1177/master
+    
+    new message added to index.html
+
+[33mcommit aec5ea41f58cff9fb779dece2dfbce2d196c1185[m
+Merge: 3281df1 55e16c6
+Author: w3schools-test <77673807+w3schools-test@users.noreply.github.com>
+Date:   Thu Oct 27 10:02:34 2022 +0200
+
+    Merge pull request #1148 from tefbop/master
+    
+    Changed to serve as a public guestbook
+
+[33mcommit 55e16c61263ddfde7d4886a14dd95f85461d1cc9[m
+Merge: 5209868 3281df1
+Author: w3schools-test <77673807+w3schools-test@users.noreply.github.com>
+Date:   Thu Oct 27 10:02:28 2022 +0200
+
+    Merge branch 'master' into master
+
+[33mcommit 3281df1e0ab80482d3c9d98f0a8cb28e250efe1d[m
+Merge: b9efa19 f1179ed
+Author: w3schools-test <77673807+w3schools-test@users.noreply.github.com>
+Date:   Thu Oct 27 10:01:10 2022 +0200
+
+    Merge pull request #1144 from clhorst3/master
+    
+    Update index.html
+
+[33mcommit 65afd2c23602ed940e2d0dcc8d5d45eb58ddb8e1[m
+Author: tarun <tarunyadav1177@gmail.com>
+Date:   Wed Oct 26 22:40:50 2022 +0530
+
+    new message added to index.html
+
+[33mcommit 5209868f9ea22f1e71fcecaa548b440558d193ce[m
+Author: john <john@foo.bar>
+Date:   Thu Oct 27 00:10:33 2022 +0800
+
+    updated index.html
+
+[33mcommit c79430c52e0b5866709f79724dbfa9511da0d3d9[m
+Author: dR1xX <vasdenrix@yandex.ru>
+Date:   Wed Oct 26 16:46:38 2022 +0300
+
+    changed index file
+
+[33mcommit 0d2dc83d0fc92af8bc7a49088505965b9b5d33df[m
+Author: Nado <na@mail.net>
+Date:   Wed Oct 26 11:50:49 2022 +0200
+
+    added my message
+
+[33mcommit a23674941786dc680d189c3383c79dcdfb522ec7[m
+Author: Nado <na@mail.net>
+Date:   Wed Oct 26 11:47:22 2022 +0200
+
+    added my message
+
+[33mcommit afbbe622a97eda8e3e517a166c547c166d6e1458[m
+Author: Ojofudaniel <ojofudaniel@gmail.com>
+Date:   Wed Oct 26 09:38:34 2022 +0100
+
+    i included a text
+
+[33mcommit f1179ed690a76c974ceb59017e0b07d3c3f48c26[m
+Author: clhorst3 <99820414+clhorst3@users.noreply.github.com>
+Date:   Tue Oct 25 10:21:07 2022 -0600
+
+    Update index.html
+
+[33mcommit 8ca7859bbca041a05e06aff56d5e8f9e9c619a4c[m
+Author: TaiwoEnoch <taiwoenoch0@gmail.com>
+Date:   Tue Oct 25 14:42:04 2022 +0100
+
+    Include my salutions
+
+[33mcommit b9efa193e2c1b67fec5b02793b4226849e2e59de[m
+Merge: 0a67279 d13fb54
+Author: w3schools-test <77673807+w3schools-test@users.noreply.github.com>
+Date:   Mon Oct 24 12:54:10 2022 +0200
+
+    Merge pull request #1141 from a-dudych/master
+    
+    New message for public guestbook
+
+[33mcommit d13fb54d765f939a514aa00069b7ec82f5eadf29[m
+Merge: f370c3c 0a67279
+Author: w3schools-test <77673807+w3schools-test@users.noreply.github.com>
+Date:   Mon Oct 24 12:53:54 2022 +0200
+
+    Merge branch 'master' into master
+
+[33mcommit 0a672790c3a8eb2578c671d5160de2e660e211f1[m
+Merge: 897bb18 174a069
+Author: w3schools-test <77673807+w3schools-test@users.noreply.github.com>
+Date:   Mon Oct 24 12:52:59 2022 +0200
+
+    Merge pull request #1140 from yoyobara/master
+    
+    my commit
+
+[33mcommit 174a0690159167da81fa7b5229881461a7fb4f91[m
+Merge: aceb7ae 897bb18
+Author: w3schools-test <77673807+w3schools-test@users.noreply.github.com>
+Date:   Mon Oct 24 12:52:53 2022 +0200
+
+    Merge branch 'master' into master
