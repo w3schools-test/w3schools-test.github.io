@@ -17,7 +17,7 @@ You can add almost anything to the index.html file between the indicated comment
 
 `<!-- Insert your message below here -->`
 
-hello this is gourav and this my first fork 
+and
 
 `<!-- End user messages -->`
 
