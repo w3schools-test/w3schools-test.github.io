@@ -8,8 +8,7 @@ This repository is meant to be a place where our users can leave messages for ot
 
 You can see the result here: https://w3schools-test.github.io/
 
-We generally only have one condition: 
-We will not allow messages that are negative, or hurtful. Try to be welcome and positive!
+We generally only have one condition:  
 
 # What should my message look like?
 
