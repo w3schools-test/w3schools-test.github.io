@@ -15,11 +15,11 @@ We will not allow messages that are negative, or hurtful. Try to be welcome and 
 
 You can add almost anything to the index.html file between the indicated comments:
 
-`<!-- Youza! What's crackalackin'? -->`
+`<!-- Insert your message below here -->`
 
 and
 
-`<!-- NK -->`
+`<!-- End user messages -->`
 
 So feel free to use your imagination!
 
