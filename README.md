@@ -17,7 +17,7 @@ You can add almost anything to the index.html file between the indicated comment
 
 `<!-- Insert your message below here -->`
 
-Hi world, remember the real carbonare is made with guanciale not bacon and  without the cream
+Hi world, remember the real carbonara is made with guanciale not bacon and  without the cream
 
 `<!-- End user messages -->`
 
