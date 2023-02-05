@@ -4625,6 +4625,44 @@ background-color: white;
 </div>
 </div>
 
+
+<style>
+  #grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+    padding: 30px;
+
+    gap: 1rem;
+  }
+  .card{
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-radius: 20px;
+
+
+  }
+
+</style>
+
+<div id="grid">
+</div>
+
+<script>
+  var container=document.getElementById("grid")
+  console.log(container)
+  var arr=[1,2,3,4,5,6,7,8,9,10];
+
+  // const card=document.createElement("div")
+  // card.className="card"
+var output=""
+  arr.forEach((item)=>{
+    output+=`<div class="card" style='background-color:rgba(${Math.floor(Math.random()*194).toFixed(3)}, ${Math.floor(Math.random()*203).toFixed(2)}, ${Math.floor(Math.random()*49).toFixed(2),0.2}'>${item}</div>`
+  })
+container.innerHTML=output
+  </script>
     <!-- End user messages -->
   </div>
 </div>
