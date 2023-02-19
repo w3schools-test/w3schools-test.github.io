@@ -4,12 +4,7 @@ This is the public GitHub project that you can contribute to.
 If you are just getting started, I suggest you start at the tutorial here: https://www.w3schools.com/git
 
 # Leave a message for us!
-This repository is meant to be a place where our users can leave messages for others to see.
-
-You can see the result here: https://w3schools-test.github.io/
-
-We generally only have one condition: 
-We will not allow messages that are negative, or hurtful. Try to be welcome and positive!
+I just loved the git and github tutorial on w3schools site.
 
 # What should my message look like?
 
@@ -17,14 +12,13 @@ You can add almost anything to the index.html file between the indicated comment
 
 `<!-- Insert your message below here -->`
 
-and
+Just a push and pull away from your repository.
+
+----BY KV
 
 `<!-- End user messages -->`
 
-So feel free to use your imagination!
-
-If you are not feeling very creative, you can add a quote, or small text like the examples on this page: https://www.w3schools.com/w3css/w3css_quotes.asp
-And add your name to it :)
+Hello W3Schools
 
 # My change was not approved :(
 
