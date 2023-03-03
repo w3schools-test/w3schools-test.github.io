@@ -1,0 +1,27 @@
+body {
+background-color: lightblue;
+}
+
+h1 {
+color: black;
+text-align: center;
+font-family: "Times New Roman";
+font-size: 30px;
+
+}
+
+h2 {
+color: green;
+text-align: center;
+font-family: "Times New Roman";
+font-size: 20px;
+
+}
+h3 {
+color: red;
+text-align: center;
+font-family: "Times New Roman";
+font-size: 15px;
+
+}
+
