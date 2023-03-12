@@ -31,3 +31,7 @@ And add your name to it :)
 We reserve the right to remove, or not to add anything that we feel will not fit here.
 Also, this page is a community page, and the content you add may be changed later.
 hello sahil
+
+# About W3Sschools 
+
+This is one of the best platform for the newbie. It helped me a lot during my internship and also while I was in college I used to take notes from this site. Thank you w3schools. 
