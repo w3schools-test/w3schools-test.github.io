@@ -17,12 +17,7 @@ You can add almost anything to the index.html file between the indicated comment
 
 `<!-- Insert your message below here -->`
 
-<div class="w3-panel w3-sand w3-leftbar">
-  <p class="w3-xlarge w3-serif">
-  <p><i class="fa fa-quote-right w3-xxlarge"></i><br>
-  <i>Great tutorial that I have recommended to friends. Very clear, we directly work with examples and the exercises are well done. Thanks a lot !</i></p>
-  <p>Aline C.</p>
-</div> 
+and
 
 `<!-- End user messages -->`
 
