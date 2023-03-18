@@ -5,7 +5,8 @@ If you are just getting started, I suggest you start at the tutorial here: https
 
 # Leave a message for us!
 This repository is meant to be a place where our users can leave messages for others to see.
-
+this w3 school is very good for learning the html, python,and many other and this is very helpfull for making the web page very easily.
+it specially teach that how to design a simple web.
 You can see the result here: https://w3schools-test.github.io/
 
 We generally only have one condition: 
