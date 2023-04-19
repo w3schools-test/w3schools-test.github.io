@@ -13,8 +13,23 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster&effect=shadow-multiple">
 <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-2017.css">
 <style>
-html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
-.w3-tag {height:15px;width:15px;padding:0;margin-top:6px;cursor:pointer}
+html,
+body,
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Lato", sans-serif;
+}
+.w3-tag {
+    width: 15px;
+    height: 15px;
+    margin-top: 6px;
+    padding: 0;
+
+    cursor: pointer;
+}
+
 </style>
 </head>
 <body>
@@ -4040,7 +4055,13 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
     <!-- Marim -->
     <div>
       <style>
-        #SomeMarimbist-clear-fix::after {content: "";clear: both;display: table;}
+#SomeMarimbist-clear-fix::after {
+    display: table;
+    clear: both;
+
+    content: "";
+}
+
       </style>
       <div style="background-color: #2c90f5; padding:1.5em; font-family:cursive;" id="SomeMarimbist-clear-fix">
         <img
@@ -4917,16 +4938,19 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
       <div class="bandera">
       </div>
       <style>
-        .bandera{
-            margin: auto;
-            height: 100px;
-            width: 150px;
-            background: linear-gradient(180deg, red 34%, yellow 34%, yellow 66%, green 66%)
-        }
-        #h2-daniel-bolivia{
-          text-align: center;
-          text-shadow: 1px 5px 5px #9999A1;
-         }
+.bandera{
+    width: 150px;
+    height: 100px;
+    margin: auto;
+
+    background: linear-gradient(180deg, red 34%, yellow 34%, yellow 66%, green 66%);
+}
+#h2-daniel-bolivia{
+    text-align: center;
+
+    text-shadow: 1px 5px 5px #9999a1;
+}
+
       </style>
     </div>
     <!--Message from Bangladesh-->
@@ -4970,25 +4994,28 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
       </div>
     
       <style>
-        .container{
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          text-align: left;
-          height: auto;
-          width: 100%;
-      padding: 20px;
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-        }
-        .box{
-          height: auto;
-          width: 57%;
-          background-color: #7ee8fa;
-      background-image: linear-gradient(315deg, #7ee8fa 0%, #80ff72 74%);
-      padding: 50px;
-      border-radius: 20px;
-      background-color: white;
-        }
+    width: 100%;
+    height: auto;
+    padding: 20px;
+
+    text-align: left;
+}
+.box{
+    width: 57%;
+    height: auto;
+    padding: 50px;
+
+    border-radius: 20px;
+    background-color: #7ee8fa;
+    background-color: white;
+    background-image: linear-gradient(315deg, #7ee8fa 0%, #80ff72 74%);
+}
+
       </style>
       <div class="container">
         <div class="box">
@@ -5053,52 +5080,64 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
       <q>bealfredo, 2023/01/25</q>
 
       <style>
-        .msg-bealfredo {
-          width: 350px;
-          height: 350px;
-          margin: 20px auto;
-          border-radius: 50%;
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          justify-content: center;
-          position: relative;
+.msg-bealfredo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
 
-          color: white;
-          font-size: 25px;
-          text-shadow: 0 0 1px black, 0 0 50px white;
-          font-family: Verdana, Geneva, Tahoma, sans-serif;
-          background-color: rgba(255,255,255, 0.2);
-          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-        }
-        .msg-bealfredo::before {
-          display: block;
-          content: "";
-          position:  absolute;
-          inset: 0;
-          z-index: -1;
-          border-radius: inherit;
-          margin: -15px;
+    position: relative;
 
-          background-color:hsla(0,100%,50%,1);
-          background-image:
-          radial-gradient(at 40% 20%, hsla(28,100%,74%,1) 0px, transparent 50%),
-          radial-gradient(at 80% 0%, hsla(189,100%,56%,1) 0px, transparent 50%),
-          radial-gradient(at 0% 50%, hsla(355,100%,93%,1) 0px, transparent 50%),
-          radial-gradient(at 80% 50%, hsla(340,100%,76%,1) 0px, transparent 50%),
-          radial-gradient(at 0% 100%, hsla(22,100%,77%,1) 0px, transparent 50%),
-          radial-gradient(at 80% 100%, hsla(242,100%,70%,1) 0px, transparent 50%),
-          radial-gradient(at 0% 0%, hsla(343,100%,76%,1) 0px, transparent 50%);
-          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-          animation: msg-bealfredo linear 10s infinite both;
-        }
-        .msg-bealfredo q {
-          font-size: 12px;
-        }
-        @keyframes msg-bealfredo {
-          0% {transform: rotate(0deg);}
-          100% {transform: rotate(360deg);}
-        }
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 350px;
+    height: 350px;
+    margin: 20px auto;
+
+    color: white;
+    border-radius: 50%;
+    background-color: rgba(255,255,255, 0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+    text-shadow: 0 0 1px black, 0 0 50px white;
+}
+.msg-bealfredo::before {
+    position: absolute;
+    z-index: -1;
+
+    display: block;
+
+    margin: -15px;
+
+    content: "";
+    animation: msg-bealfredo linear 10s infinite both;
+
+    border-radius: inherit;
+    background-color: hsla(0,100%,50%,1);
+    background-image: radial-gradient(at 40% 20%, hsla(28,100%,74%,1) 0px, transparent 50%),
+    radial-gradient(at 80% 0%, hsla(189,100%,56%,1) 0px, transparent 50%),
+    radial-gradient(at 0% 50%, hsla(355,100%,93%,1) 0px, transparent 50%),
+    radial-gradient(at 80% 50%, hsla(340,100%,76%,1) 0px, transparent 50%),
+    radial-gradient(at 0% 100%, hsla(22,100%,77%,1) 0px, transparent 50%),
+    radial-gradient(at 80% 100%, hsla(242,100%,70%,1) 0px, transparent 50%),
+    radial-gradient(at 0% 0%, hsla(343,100%,76%,1) 0px, transparent 50%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+    inset: 0;
+}
+.msg-bealfredo q {
+    font-size: 12px;
+}
+@keyframes msg-bealfredo {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
       </style>
     </div>
 
@@ -5113,20 +5152,25 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 <div class="msgBoxByNickChen">
   <p>Thank w3school for this tutorial!!!<br/>By Nick Chen from Taiwan</p>
   <style>
-    .msgBoxByNickChen {
-      background-color: #eee;
-      text-align: center;
-      width: 500px;
-      height: 300px;
-      margin: 0 auto;
-      padding: 50px;
-      border-radius: 50px;
-    }
-    .msgBoxByNickChen p {
-      margin: 0;
-      color: black;
-      line-height: 2.6;
-    }
+.msgBoxByNickChen {
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    padding: 50px;
+
+    text-align: center;
+
+    border-radius: 50px;
+    background-color: #eee;
+}
+.msgBoxByNickChen p {
+    margin: 0;
+
+    color: black;
+
+    line-height: 2.6;
+}
+
   </style>
 </div>
 
@@ -5164,25 +5208,31 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 		</q>
 	</div>
 	<style>
-		#scriptax-div {
-			width: 100%;
-			background-color: black;
-			font-family: tahoma, verdana, arial;
-			text-align: center;
-		}
-		#scriptax-message {
-			font-weight: 400;
-			font-size: 16pt;
-		}
-		#scriptax-quote {
-			color: black;
-			height: 0;
-			opacity: 0;
-			transition-duration: 0.3s;
-		}
-		#scriptax-btn:focus ~ #scriptax-quote {
-			opacity: 1;
-		}
+#scriptax-div {
+    font-family: tahoma, verdana, arial;
+
+    width: 100%;
+
+    text-align: center;
+
+    background-color: black;
+}
+#scriptax-message {
+    font-size: 16pt;
+    font-weight: 400;
+}
+#scriptax-quote {
+    height: 0;
+
+    transition-duration: 0.3s;
+
+    opacity: 0;
+    color: black;
+}
+#scriptax-btn:focus ~ #scriptax-quote {
+    opacity: 1;
+}
+
 	</style>
 	<!--Message from scriptax-->
 
@@ -5206,30 +5256,34 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
     </div>
     
     <style>
-      .msg-fernando {
-        border: 5px solid #006633;
-        position: relative;
-        padding: 5px 10px;
-        margin: 40px 0;
-        color: #006633;
-        text-decoration: none;
-        transition: 0.7s;
-        letter-spacing: 4px;
-        overflow: hidden;
-        margin: 50px 50px 200px 50px;
-    
-      }
-    
-      .msg-fernando:hover {
+.msg-fernando {
+    position: relative;
 
-        background: #006633;
-        color: #ffffff;
-        box-shadow: 0 0 5px #006633,
-          0 0 25px #006633,
-          0 0 50px #006633,
-          0 0 1000px #006633;
-          -webkit-box-reflect: below -5px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
-      }
+    overflow: hidden;
+
+    margin: 40px 0;
+    margin: 50px 50px 200px 50px;
+    padding: 5px 10px;
+
+    transition: 0.7s;
+    text-decoration: none;
+    letter-spacing: 4px;
+
+    color: #063;
+    border: 5px solid #063;
+}
+
+.msg-fernando:hover {
+    color: #fff;
+    background: #063;
+    box-shadow: 0 0 5px #063,
+    0 0 25px #063,
+    0 0 50px #063,
+    0 0 1000px #063;
+
+    -webkit-box-reflect: below -5px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+}
+
     </style>
 
     <!-- Message from Obaze, Nigeria -->
@@ -5248,11 +5302,13 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
       <p style="text-align: center; font-family: 'Times New Roman', Times, serif; font-size: medium; color:#203A43"><em>29.03.2023</em></p>
     </div>
     <style>
-      .msg-bogdan:hover{
-        box-shadow: 20px 20px gray;
-        transform: scale(1.1);
-        transition: transform 0.5s ease-in;
-      }
+.msg-bogdan:hover{
+    transition: transform 0.5s ease-in;
+    transform: scale(1.1);
+
+    box-shadow: 20px 20px gray;
+}
+
     </style>
     <!-- End message from Cerbog -->
 
@@ -5290,10 +5346,12 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
      <div style="background-color: #E6E6E9; padding: 10px">
       <h1 id="h1">Thank you for such amazing content for free</h2>
       <style>
-        #h1{
-          text-align: center;
-          text-shadow: 1px 5px 5px #9999A1;
-         }
+#h1{
+    text-align: center;
+
+    text-shadow: 1px 5px 5px #9999a1;
+}
+
       </style>
     </div>
 
