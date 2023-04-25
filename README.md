@@ -19,6 +19,8 @@ You can add almost anything to the index.html file between the indicated comment
 
 and
 
+This is a new line in the fork project description.
+
 `<!-- End user messages -->`
 
 So feel free to use your imagination!
