@@ -1,4 +1,4 @@
-# Guestbook for Sheykhnazirboyev w3schools.com Git tutorial
+# Guestbook for w3schools.com Git tutorial
 
 This is the public GitHub project that you can contribute to.
 If you are just getting started, I suggest you start at the tutorial here: https://www.w3schools.com/git
@@ -30,3 +30,6 @@ And add your name to it :)
 
 We reserve the right to remove, or not to add anything that we feel will not fit here.
 Also, this page is a community page, and the content you add may be changed later.
+
+# What is Lorem Ipsum?
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
