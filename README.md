@@ -17,7 +17,8 @@ You can add almost anything to the index.html file between the indicated comment
 
 `<!-- Insert your message below here -->`
 
-and
+This is a testimonial that W3-Schools may ike to add somewhere,
+Been a learner from this platform for a long time. From the very beginning they have been providing very clear and concise concepts explanations. That is why W3-Schools is been appreciated by many learning students and developers. The Git and Github tutorial is one of the most amazingly built tutorials they ever had, each and every thing is been deciphered in deep and clarity. I really had a good time going through this tutorial and I am now able to do manu things that software engineers do in Git and Github in their industires. Thankyou W3-Schools :)
 
 `<!-- End user messages -->`
 
