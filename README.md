@@ -17,7 +17,23 @@ You can add almost anything to the index.html file between the indicated comment
 
 `<!-- Insert your message below here -->`
 
-and
+What did the buffalo say to his son going to college?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ANSWER
+Bison
 
 `<!-- End user messages -->`
 
