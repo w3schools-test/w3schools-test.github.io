@@ -31,6 +31,6 @@ And add your name to it :)
 We reserve the right to remove, or not to add anything that we feel will not fit here.
 Also, this page is a community page, and the content you add may be changed 
 
-----------------Message--------------------
+#----------------Message--------------------
 
 #Hello w3school, Thank you for the great tutorial on Git and Github
