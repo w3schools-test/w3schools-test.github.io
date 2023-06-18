@@ -1,4 +1,4 @@
-# This is my forked repo, so I'm going to write this here, then pull it to my local repo. Looks good!
+# This is my forked repo, so I'm going to write this here, then merge it with my local repo. Looks good!
 
 # Guestbook for w3schools.com Git tutorial
 
