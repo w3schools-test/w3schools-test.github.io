@@ -1,5 +1,7 @@
 # This is my forked repo, so I'm going to write this here, then merge it with my local repo. Looks good!
 
+# This is my local clone of the forked repo, so I'm going to write this and submit a pull request from GitHub.
+
 # Guestbook for w3schools.com Git tutorial
 
 This is the public GitHub project that you can contribute to.
