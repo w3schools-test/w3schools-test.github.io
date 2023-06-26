@@ -19,6 +19,8 @@ You can add almost anything to the index.html file between the indicated comment
 
 and
 
+new line
+
 `<!-- End user messages -->`
 
 So feel free to use your imagination!
