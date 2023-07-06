@@ -19,6 +19,8 @@ You can add almost anything to the index.html file between the indicated comment
 
 and
 
+Hello, World 2023!
+
 `<!-- End user messages -->`
 
 So feel free to use your imagination!
