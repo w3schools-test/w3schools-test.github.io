@@ -1,0 +1,65 @@
+# azure-pipelines.yml
+
+# Define the pipeline configuration
+trigger:
+  branches:
+    include:
+      - main
+  paths:
+    exclude:
+      - README.md
+      - azure-pipelines.yml
+
+pool:
+  vmImage: 'ubuntu-latest' # Use a specific build agent (Ubuntu Linux in this case)
+
+stages:
+  - stage: Build
+    displayName: 'Build Stage'
+    jobs:
+      - job: BuildJob
+        displayName: 'Building the application'
+        steps:
+          - task: NodeTool@0
+            inputs:
+              versionSpec: '14.x'
+            displayName: 'Install Node.js 14.x'
+            
+          - script: |
+              npm install
+              npm run build
+            displayName: 'Build the application'
+
+  - stage: Test
+    displayName: 'Test Stage'
+    jobs:
+      - job: TestJob
+        displayName: 'Running tests'
+        steps:
+          - task: NodeTool@0
+            inputs:
+              versionSpec: '14.x'
+            displayName: 'Install Node.js 14.x'
+            
+          - script: |
+              npm install
+              npm run test
+            displayName: 'Run tests'
+
+  - stage: Deploy
+    displayName: 'Deploy Stage'
+    dependsOn: Test
+    jobs:
+      - deployment: DeployJob
+        displayName: 'Deploy to Azure App Service'
+        environment: 'dev'  # Replace with your environment name in Azure DevOps
+        
+        strategy:
+          runOnce:
+            deploy:
+              steps:
+                - task: AzureWebApp@1
+                  inputs:
+                    azureSubscription: 'YourAzureSubscription' # Replace with your Azure subscription name
+                    appName: 'YourAppName' # Replace with your Azure App Service name
+                    package: '$(Pipeline.Workspace)/**/*.zip'
