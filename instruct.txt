@@ -1,0 +1,3 @@
+git init
+git remote add origin https://github.com/ravitejathumnoori/w3schools-test.github.io
+git pull origin master
