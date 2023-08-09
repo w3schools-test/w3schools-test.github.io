@@ -17,7 +17,11 @@ You can add almost anything to the index.html file between the indicated comment
 
 `<!-- Insert your message below here -->`
 
-and
+Hey, I am Pranav.I hope my message gets included.
+I am skilled in Java,Python,C,HTML,CSS,JS,React JS.
+Eager to learn new programming related technologies.
+Do contact me if you wish to collaborate and explore together.
+Thank You...
 
 `<!-- End user messages -->`
 
