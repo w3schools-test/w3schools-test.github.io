@@ -5,6 +5,7 @@ If you are just getting started, I suggest you start at the tutorial here: https
 
 # Leave a message for us!
 This repository is meant to be a place where our users can leave messages for others to see.
+Thsi is update to test the send pull request. Great course, BTW. Thx.
 
 You can see the result here: https://w3schools-test.github.io/
 
