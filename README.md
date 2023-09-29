@@ -17,6 +17,11 @@ You can add almost anything to the index.html file between the indicated comment
 
 `<!-- Insert your message below here -->`
 
+Well the only thing I wolud like to tell the whole team of w3school is that
+you guys are doing a great job and thank you for all those help before the interviews!!
+You guys have no idea of how many people you have helped to land them their dream job.
+Dil se Dhanyabaad!
+
 and
 
 `<!-- End user messages -->`
