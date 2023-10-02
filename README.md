@@ -17,8 +17,7 @@ You can add almost anything to the index.html file between the indicated comment
 
 `<!-- Insert your message below here -->`
 
-and insert message here. test. 2023-10-02
-
+and insert message here. test. 2023-10-02. W3schools.
 `<!-- End user messages -->`
 
 So feel free to use your imagination!
