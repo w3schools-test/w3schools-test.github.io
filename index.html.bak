@@ -56,7 +56,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
       <h3>Collaborate</h3>
       <p>Add a message, following the guidelines from the <a href="https://github.com/w3schools-test/w3schools-test.github.io" title="Guestbook Git Repository" target="_blank" class="w3-hover-text-green">README.md</a>.</p>
     </div>
-<div> this is the test </div>
+
     <div class="w3-col l3 m6 w3-black w3-container w3-padding-16">
       <h3>Contribute</h3>
       <p>Add a <a href="https://github.com/w3schools-test/w3schools-test.github.io/pulls" title="GitHub Pull Request" target="_blank" class="w3-hover-text-green">pull request</a>, and see if your change gets approved and added below!</p>
