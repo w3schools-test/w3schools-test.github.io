@@ -19,7 +19,7 @@ You can add almost anything to the index.html file between the indicated comment
 
 and
 
-`hello cz`
+`hello czcz`
 
 So feel free to use your imagination!
 
