@@ -17,7 +17,9 @@ You can add almost anything to the index.html file between the indicated comment
 
 `<!-- Insert your message below here -->`
 
-and
+I am adding an picture of Gojo Satoru.
+What about you?
+Do you love anime?
 
 `<!-- End user messages -->`
 
