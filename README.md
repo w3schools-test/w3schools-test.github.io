@@ -31,4 +31,6 @@ Also, this page is a community page, and the content you add may be changed late
 
 im doing orther thing that here 
 really what about african , what about us
-it mine , dont talk to me
+it mine , dont talk to me 
+
+converger avec le master de git 
