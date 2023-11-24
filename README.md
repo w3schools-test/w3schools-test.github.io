@@ -28,3 +28,6 @@ And add your name to it :)
 
 We reserve the right to remove, or not to add anything that we feel will not fit here.
 Also, this page is a community page, and the content you add may be changed later.
+
+i don4t know wht to says but just go back to bed and suit dream to you
+hhaha goodbye friend
