@@ -33,7 +33,5 @@ im doing orther thing that here
 really what about african , what about us
 it mine , dont talk to me 
 
-|| converger avec le master de git 
-
-verification successful
+successful verification
 
