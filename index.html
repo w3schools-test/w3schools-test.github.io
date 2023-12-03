@@ -92,6 +92,54 @@
       </div>
 
       <!-- Insert your message below here -->
+
+      <!-- Message from TenVzadu -->
+      <style>
+        #tvContainer {
+          background-color: #000;
+          padding: 20px;
+          margin: 20px 0;
+          cursor: not-allowed;
+          overflow: hidden;
+        }
+
+        #tvContainer > h2 {
+          color: hotpink;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          padding-left: 10px;
+          transition: padding-left 1s;
+          user-select: none;
+        }
+
+        #tvContainer:hover > h2 {
+          padding-left: 80px;
+        }
+
+        #tvContainer p {
+          text-align: right;
+          color: white;
+        }
+      </style>
+
+      <script>
+        function onTVClick() {
+          let cmp = document.getElementById("tvContent");
+
+          cmp.innerHTML += " - me too"
+
+          setInterval(function() {
+            cmp.innerHTML += "! ";
+          }, 40);
+        }
+      </script>
+
+      <div id="tvContainer" onclick="onTVClick()" >
+        <h2 id="tvContent">Kilroy was here</h2>
+        <p>♥ Domík z Prahy 3.12.2023 ♥</p>
+      </div>
+      <!-- End message from TenVzadu -->
+
+
         <!--Message from Taran-->
           <div class="card">
               <div class="card-header">Taran Mesala</div>
