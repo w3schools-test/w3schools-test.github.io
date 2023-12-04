@@ -123,19 +123,13 @@
 
       <script>
         function onTVClick() {
-          let cmp = document.getElementById("tvContent");
-
-          cmp.innerHTML += " - me too"
-
-          setInterval(function() {
-            cmp.innerHTML += "! ";
-          }, 40);
+          let cmp = document.getElementById("tvContent").innerHTML += " - me too!";
         }
       </script>
 
       <div id="tvContainer" onclick="onTVClick()" >
         <h2 id="tvContent">Kilroy was here</h2>
-        <p>♥ Domík z Prahy 3.12.2023 ♥</p>
+        <p>♥ Domík z Prahy 4.12.2023 ♥</p>
       </div>
       <!-- End message from TenVzadu -->
 
