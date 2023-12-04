@@ -101,6 +101,7 @@
           margin: 20px 0;
           cursor: not-allowed;
           overflow: hidden;
+          border-top: 5px solid hotpink;
         }
 
         #tvContainer > h2 {
@@ -123,7 +124,7 @@
 
       <script>
         function onTVClick() {
-          let cmp = document.getElementById("tvContent").innerHTML += " - me too!";
+          document.getElementById("tvContent").innerHTML += " - me too!";
         }
       </script>
 
