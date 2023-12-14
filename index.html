@@ -9602,9 +9602,66 @@ margin: 0 auto;">👍👍</p>
 </p>
 </div>
 <!-- End of message from GustavoEsposar -->
-
+<!-- start message from bhagyesh nimbalkar -->
+<style>
+       .main{
+        width:100%; height:100%; padding:20px; box-sizing:border-box; background:linear-gradient(to bottom right,skyblue,purple);
+    border-radius:20px; box-shadow:inset 0px 0px 40px black;
+    transform:rotateX(20deg);
+    perspective:1000px;
+     display:flex; gap:5px;
+     justify-content:center;
+     flex-wrap:wrap;
+       }
+       .color-change{
+        text-align:center; color:white;
+      text-shadow:0px 15px 5px black;
+      perspective:700px;
+      font-size:70px;
+    transform:rotateX(50deg);
+    transition:all 0.3s ease;
+       }
+       .magic{
+              transform:translateY(-50px) scale(1.9) rotate(-10deg);
+       }
+   </style>
+    <div class="main">
+      <h1 class="color-change">T</h1>
+      <h1 class="color-change">H</h1>
+      <h1 class="color-change">A</h1>
+      <h1 class="color-change">N</h1>
+      <h1 class="color-change">K</h1>
+      <h1 class="color-change">S</h1>
+      <h1 class="color-change">F</h1>
+      <h1 class="color-change">O</h1>
+      <h1 class="color-change">R</h1>
+      <h1 class="color-change">T</h1>
+      <h1 class="color-change">U</h1>
+      <h1 class="color-change">T</h1>
+      <h1 class="color-change">O</h1>
+      <h1 class="color-change">R</h1>
+      <h1 class="color-change">I</h1>
+      <h1 class="color-change">A</h1>
+      <h1 class="color-change">L</h1>
+   </div>
+   <script>
+       let i=0,j=0;
+       const letters = document.querySelectorAll('.color-change');
+       setInterval(()=>{
+          if(i>=17) i=0;
+         
+          letters[i].classList.add('magic');
+         if(!(j==0 && i==0))
+         {
+          letters[j].classList.remove('magic');
+         }
+          j=i;
+          i++;
+       },300);
+   </script>
+<!-- End message from bhagyesh nimbalkar-->
+	  
 <!-- End user messages -->
-
 
   </div>
   </div>
