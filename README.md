@@ -21,7 +21,7 @@ and
 
 `<!-- End user messages -->`
 
-So feel free to use your imagination!
+So feel free to use your imagination! Be creative !
 
 If you are not feeling very creative, you can add a quote, or small text like the examples on this page: https://www.w3schools.com/w3css/w3css_quotes.asp
 And add your name to it :)
