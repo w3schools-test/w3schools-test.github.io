@@ -15,11 +15,12 @@ We will not allow messages that are negative, or hurtful. Try to be welcome and 
 
 You can add almost anything to the index.html file between the indicated comments:
 
-`<!-- Insert your message below here -->`
+Im bobby, adding my comment here  
+<!-- THANK YOU -->
 
 and
 
-`<!-- End user messages -->`
+thankyou for speading knowledge for free
 
 So feel free to use your imagination!
 
