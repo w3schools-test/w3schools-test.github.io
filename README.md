@@ -11,6 +11,9 @@ You can see the result here: https://w3schools-test.github.io/
 We generally only have one condition: 
 We will not allow messages that are negative, or hurtful. Try to be welcome and positive!
 
+Narjis was here
+suped excited about this course
+
 # What should my message look like?
 
 You can add almost anything to the index.html file between the indicated comments:
