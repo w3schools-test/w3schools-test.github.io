@@ -17,7 +17,7 @@ You can add almost anything to the index.html file between the indicated comment
 
 `<!-- Insert your message below here -->`
 
-and
+New message added on Jan 02,2024
 
 `<!-- End user messages -->`
 
