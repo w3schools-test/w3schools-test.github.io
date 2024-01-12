@@ -15,11 +15,11 @@ We will not allow messages that are negative, or hurtful. Try to be welcome and 
 
 You can add almost anything to the index.html file between the indicated comments:
 
-`<!-- Insert your message below here -->`
+`<!-- Thank you w3schools for your amazing work, I hope I become a good SE-->`
 
 and
 
-`<!-- End user messages -->`
+`<!--You can follow me on all socail media "Sviour Bonnie"-->`
 
 So feel free to use your imagination!
 
