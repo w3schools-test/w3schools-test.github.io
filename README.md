@@ -15,12 +15,12 @@ We will not allow messages that are negative, or hurtful. Try to be welcome and 
 
 You can add almost anything to the index.html file between the indicated comments:
 
-`Hey y'all! Thanks for the awesome tutorial!`
+`<!-- Insert your message below here -->`
 
-This message created by github.com/kursadayin
+Hi guys! Thanks for the awesome tutorial!
 
 
-`Just as an FYI, looks like some of the instructions for connecting to GIT are out of date, as password auth is no longer allowed`
+`<!-- End user messages -->`
 
 So feel free to use your imagination!
 
