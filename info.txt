@@ -2,3 +2,4 @@ We forked the repo from w3schools.
 1. cloned form the main repo and renamed the origin to upstream
 2. added our forked repo as the origin
 3. making changes in local and we are going to push it to the github origin i.e. our (forked) repo.
+4.pushing our work to the forked repo and also send pull  request to the origin.
