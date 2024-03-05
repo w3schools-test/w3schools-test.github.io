@@ -17,7 +17,8 @@ You can add almost anything to the index.html file between the indicated comment
 
 `<!-- Insert your message below here -->`
 
-
+"Learning is like rowing against the current. If you stop,
+you drift back." - Lao-Tse
 
 
 `<!-- End user messages -->`
