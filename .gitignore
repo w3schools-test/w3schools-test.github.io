@@ -1,2 +1,11 @@
+# ignore ALL files in ANY subdirectory named .vscode
 /.vscode/
 
+# ignore ALL .log files
+*.log
+
+# ignore ALL files in ANY directory named temp
+temp/
+
+# ignore ALL Excel- files
+*.xlsx

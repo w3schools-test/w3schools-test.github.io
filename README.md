@@ -20,6 +20,9 @@ You can add almost anything to the index.html file between the indicated comment
 "Learning is like rowing against the current. If you stop,
 you drift back." - Lao-Tse
 
+Lernen ist wie das Rudern gegen den Strom. Wenn man aufhört,
+treibt man zurück.“ – Lao-Tse
+
 
 `<!-- End user messages -->`
 
