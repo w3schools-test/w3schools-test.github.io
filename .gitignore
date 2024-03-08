@@ -1,9 +1,1 @@
-# ignore ALL .log files
-*.log
-# ignore ALL files in ANY directory named temp
-temp/
-# ignore ALL .txt files
-/*.txt
-# ignore ALL files in ANY directory named w3schools
-w3schools*/
-
+/.vscode/
