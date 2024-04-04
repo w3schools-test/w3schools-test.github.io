@@ -17,7 +17,8 @@ You can add almost anything to the index.html file between the indicated comment
 
 `<!-- Insert your message below here -->`
 
-
+Learning from w3schools is amazing.
+Best for learning basics of new technologies.
 
 `<!-- End user messages -->`
 
@@ -28,5 +29,3 @@ And add your name to it :)
 
 We reserve the right to remove, or not to add anything that we feel will not fit here.
 Also, this page is a community page, and the content you add may be changed later.
-
-# Heading is added to w3schools origin
