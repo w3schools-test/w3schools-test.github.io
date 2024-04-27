@@ -17,7 +17,7 @@ You can add almost anything to the index.html file between the indicated comment
 
 `Thank you for the Git tutorial`
 
-and
+
 
 `Have a nice weekend`
 
