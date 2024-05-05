@@ -4,8 +4,6 @@ This is the public GitHub project that you can contribute to.
 If you are just getting started, I suggest you start at the tutorial here: https://www.w3schools.com/git
 
 # Leave a message for us!
-W3S is an amazing site to learn stuff! I'm thankful for it. -Aryan GG
-
 This repository is meant to be a place where our users can leave messages for others to see.
 
 You can see the result here: https://w3schools-test.github.io/
@@ -19,7 +17,7 @@ You can add almost anything to the index.html file between the indicated comment
 
 `<!-- Insert your message below here -->`
 
-
+Hello there! My name is Aryan and I am learning how to use PULL in github.
 
 `<!-- End user messages -->`
 
