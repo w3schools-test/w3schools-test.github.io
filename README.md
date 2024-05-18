@@ -16,7 +16,7 @@ We will not allow messages that are negative, or hurtful. Try to be welcome and 
 You can add almost anything to the index.html file between the indicated comments:
 
 `<!-- Insert your message below here -->`
-
+Excellent tutorial for novice like me  to learn GIT.I am personally thankful to w3schools.com
 
 
 `<!-- End user messages -->`
