@@ -17,7 +17,7 @@ You can add almost anything to the index.html file between the indicated comment
 
 `<!-- Insert your message below here -->`
 
-
+Hello! Myself Khairul Islam & Here I am leaving a message for you all "Keep Learning, Keep Shining".
 
 `<!-- End user messages -->`
 
