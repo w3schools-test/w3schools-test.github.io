@@ -17,6 +17,8 @@ You can add almost anything to the index.html file between the indicated comment
 
 `<!-- Insert your message below here -->`
 
+Now we are going to make some changes to the code. In the next chapter, we will cover how we suggest those changes to the original repository.
+
 
 
 `<!-- End user messages -->`
