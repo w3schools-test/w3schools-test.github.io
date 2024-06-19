@@ -16,7 +16,8 @@ We will not allow messages that are negative, or hurtful. Try to be welcome and 
 You can add almost anything to the index.html file between the indicated comments:
 
 `<!-- Insert your message below here -->`
-
+Hello from sunny Ireland - I'm full of pancakes and coffee and feeling good, hope you are too!
+"Fast, good, cheap - pick any two!"
 `<!-- End user messages -->`
 
 So feel free to use your imagination!
