@@ -1,0 +1,79 @@
+/* HEADDER + GENERAL CLASSES */
+html {font-size: 100%; }
+
+body {
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 1rem;
+  margin: 0;
+}
+
+/* Not letting containers expand with padding and borders */
+* { box-sizing: border-box; }
+
+/* Clear floats and make sure floated items fit in their containers */  
+.clearfix::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Could be used to STYLE the columns */
+.column-bg {
+	width: 100%;
+	padding: 1rem;
+	margin-bottom: 1.25rem;
+	background-color: #fff;
+	border: 1px solid #bbb;
+	border-radius: .3rem;
+}
+
+.section {
+	width: 100%;
+	padding: 0.6rem;
+	margin-bottom: 1.25rem;
+	border: 2px solid #bbb;
+	border-radius: 1.25rem;
+	box-shadow: 0 10px 12px 1px rgba(0,0,0,0.15);
+}
+
+.section-f2 {
+	width: 100%;
+	padding: 0.6rem;
+	margin-bottom: 1.25rem;
+	border: 2px solid #bbb;
+	border-radius: 1.25rem;
+	background-color: #f2f2f2;
+	box-shadow: 0 8px 8px 1px rgba(0,0,0,0.2);
+}
+
+ /* this container just gives the navbar fixed position- makes things a bit easier */
+.fixed-position {
+  position: fixed;   
+  top: 0;
+  width: 100%;
+  padding: 0 10px;
+  z-index: 21;
+  background-color: rgba(184,134,11,0.95);
+}
+
+
+.mx-auto {margin: auto; }
+.h-auto {height: auto; }
+.center {text-align:center; }
+.m-bot {margin-bottom: 1.25rem;}
+.m-top {margin-top: 1.25rem;}
+/* SOME GENERAL CLASSES*/
+        			
+.image-container{overflow: hidden; }
+.image {display:block; max-width:100%; height:auto; }
+
+
+.bg-white {background-color:white; color: black; }
+.bg-blue {background-color:blue; color: white; }
+.bg-dblue {background-color:darkblue; color: white; }
+.bg-rblue {background-color:royalblue; color: white; }
+.bg-green {background-color:green; color: white; }
+.bg-dgreen {background-color:darkgreen; color: white; }
+
+.shadow1 {box-shadow: 0 8px 8px 1px rgba(0,0,0,0.2); }
+.shadow2 {box-shadow: 0 8px 17px 1px rgba(0,0,0,0.2); }
