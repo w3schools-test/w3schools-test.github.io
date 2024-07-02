@@ -16,7 +16,10 @@ We will not allow messages that are negative, or hurtful. Try to be welcome and 
 You can add almost anything to the index.html file between the indicated comments:
 
 `<!-- Insert your message below here -->`
-
+Will I always heard, but I ain't to sure
+That a man's best friend is a mangey cur
+I kinda favor the hog myself
+How 'bout a hand for the hog!
 `<!-- End user messages -->`
 
 So feel free to use your imagination!
