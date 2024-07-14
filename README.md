@@ -15,9 +15,9 @@ We will not allow messages that are negative, or hurtful. Try to be welcome and 
 
 You can add almost anything to the index.html file between the indicated comments:
 
-`<!-- Insert your message below here -->`
+`<!-- My name is Adeyemi Olayinka, I am a Network Engineer and I look forward to seeing Git and GitHub playing a great role in my profession. -->`
 
-`<!-- End user messages -->`
+`<!-- Thank you. Olayinka Adeyemi -->`
 
 So feel free to use your imagination!
 
