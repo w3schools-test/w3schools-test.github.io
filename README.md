@@ -16,7 +16,7 @@ We will not allow messages that are negative, or hurtful. Try to be welcome and 
 You can add almost anything to the index.html file between the indicated comments:
 
 `<!-- Insert your message below here -->`
-
+When i see a door with a push sign, i pull first to avoid conflicts !!!
 `<!-- End user messages -->`
 
 So feel free to use your imagination!
