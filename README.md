@@ -12,7 +12,7 @@ We generally only have one condition:
 We will not allow messages that are negative, or hurtful. Try to be welcome and positive!
 
 # What should my message look like?
-
+ssdfsvds
 You can add almost anything to the index.html file between the indicated comments:
 
 `<!-- Insert your message below here -->`
