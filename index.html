@@ -10,6 +10,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Satisfy">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Crafty+Girls&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster&effect=shadow-multiple">
   <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-2017.css">
@@ -95,7 +96,7 @@
       </div>
 
       <!-- Insert your message below here -->
-
+  
       <!--Message from IXVM-->
       <div class="ixvm-block" style="display: flex; flex-direction: column; align-items: center;">
         <div style="text-align: center; display: block; border: 2px; width: 200px; margin-bottom: 15px; border-radius: 5px; box-shadow: 0px 0px 20px; padding: 10px; align-items: center;">
@@ -126,7 +127,43 @@
       <p>Gusztav from <span style="color: #008000;">Hungary</span> 2024.09.09.</p>
       </div>  
       <!-- End message from Gusztav -->
+     
+      <!-- Message from CodedWriter -->
+      <style>
+        .cw-heading, .cw-text {
+           text-align: center;
+           font-size: 2rem;
+           font-family: 'Poppins', sans-serif;
+           position:relative;
+           margin:2rem 0 0.5rem 0;
+           font-weight:900;
+        }
 
+        .cw-heading::before {
+           position: absolute;
+           content:attr(data-key);
+           background:repeating-linear-gradient(45deg, #11b5dd 0px, #11b5dd 2px, transparent 2px, transparent 4px);
+           -webkit-text-fill-color: transparent;
+           -webkit-background-clip:text;
+           background-clip:text;
+           z-index:-1;
+           transform:translate(2px, 2px);
+}
+
+       .cw-text {
+         font-size:1rem;
+         margin:0 0 2rem 0;
+       }
+
+     </style>
+    <div>
+      <h2 class="cw-heading" data-key="Greetings from the Coded Writer" >Greetings from the Coded Writer</h2>
+      <p class="cw-text">Hello Everyone! I'm glad to be contributing to this and I commend the w3schools team for putting together this comprehensive tutorial.</p>
+    </div>
+
+      <!-- End message from CodedWriter -->
+
+      
       <!-- Message from umermatov -->
       <div class="w3-panel w3-sand w3-leftbar">
         <p>Hello from Uzbekistan!</p>
@@ -11442,6 +11479,8 @@ margin: 0 auto;">👍👍</p>
       <p style="font-size: 18px; margin-top: -20px;">João Figueiredo.</p>
     </div>
     <!-- End of message from kienin -->
+
+     
 
     <!-- Message from GuiArmanLi -->
     <div style="margin:auto;">
