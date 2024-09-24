@@ -1,0 +1,7 @@
+.jeremmys-section{
+    display: grid !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background-color: rgba(0, 0, 0, 0.367) !important;
+    box-shadow: 0px 0px 10px 20px rgb(209, 158, 4) !important;
+}
