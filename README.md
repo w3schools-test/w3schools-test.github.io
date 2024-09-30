@@ -15,8 +15,6 @@ We will not allow messages that are negative, or hurtful. Try to be welcome and 
 
 You can add almost anything to the index.html file between the indicated comments:
 
-Worth spending time on this website to learn with simple and real time examples. Thank you for making this course available for free, my gratitude for all the members of w3schools community. It's good to come back to school as a professional.
-
 `<!-- End user messages -->`
 
 So feel free to use your imagination!
