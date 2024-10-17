@@ -14,6 +14,7 @@ We will not allow messages that are negative, or hurtful. Try to be welcome and 
 # What should my message look like?
 
 You can add almost anything to the index.html file between the indicated comments:
+Changes added
 
 `<!-- Insert your message below here -->`
 
