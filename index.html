@@ -36,6 +36,334 @@
 </head>
 
 <body>
+	    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #f7f9fc, #e2eff1);
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            transition: background 0.5s;
+        }
+
+        #prompt, #setPrompt, #resultPrompt {
+            margin-bottom: 10px;
+            font-size: 24px;
+            font-weight: bold;
+            color: #ff0000;
+            text-align: center;
+        }
+
+        #numberLine {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+        }
+
+        .number {
+            width: 50px;
+            height: 50px;
+            text-align: center;
+            line-height: 50px;
+            border-radius: 50%;
+            background-color: #4CAF50;
+            color: white;
+            margin: 10px;
+            font-size: 20px;
+            transition: transform 0.3s, background-color 0.3s;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .number:hover {
+            transform: scale(1.1);
+            background-color: #45a049;
+        }
+
+        #startButton, .setButton, #playAgainButton {
+            padding: 12px 24px;
+            font-size: 18px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s;
+            margin: 10px;
+        }
+
+        #startButton:hover, .setButton:hover, #playAgainButton:hover {
+            background-color: #45a049;
+            transform: translateY(-2px);
+        }
+
+        #boxes, #newBoxes, #extraBoxes {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        .box {
+            width: 90px;
+            height: 120px;
+            border: 2px solid #4CAF50;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 22px;
+            margin: 10px;
+            border-radius: 15px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s, transform 0.3s;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        .box:hover {
+            background-color: #e8f5e9;
+            transform: translateY(-2px);
+        }
+
+        .label {
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 5px;
+            color: #4CAF50;
+        }
+
+        #message, #result {
+            margin-top: 20px;
+            font-size: 20px;
+            color: #4CAF50;
+            text-align: center;
+        }
+
+        #result {
+            margin-top: 30px;
+            padding: 20px;
+            font-size: 28px;
+            font-weight: bold;
+            color: #fff;
+            background-color: #ff5722;
+            border-radius: 10px;
+            display: none; /* Initially hidden */
+            animation: fadeIn 0.5s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+
+    <div id="prompt">Select any one number in your mind: <span style="color:green">(Made By- Prawal Bhujel)</span></div>
+    <div id="numberLine"></div>
+    <button id="startButton">Start</button>
+    <div id="setPrompt">Select set which have your number from given below:</div>
+    <div class="mainbox">
+        <div id="result"></div>
+    <div id="boxes">
+        <div onclick="selectSet([1, 4, 7, 10, 13, 16, 19])">
+            <div class="label">Set 1</div>
+            <div class="box" id="set1"></div>
+        </div>
+        <div onclick="selectSet([2, 5, 8, 11, 14, 17, 20])">
+            <div class="label">Set 2</div>
+            <div class="box" id="set2"></div>
+        </div>
+        <div onclick="selectSet([3, 6, 9, 12, 15, 18, 21])">
+            <div class="label">Set 3</div>
+            <div class="box" id="set3"></div>
+        </div>
+    </div>
+    
+    <div id="newBoxes" style="display: none;">
+        <div id="newSet1" onclick="selectNewSet('newSet1')">
+            <div class="label">New Set 1</div>
+            <div class="box"></div>
+        </div>
+        <div id="newSet2" onclick="selectNewSet('newSet2')">
+            <div class="label">New Set 2</div>
+            <div class="box"></div>
+        </div>
+        <div id="newSet3" onclick="selectNewSet('newSet3')">
+            <div class="label">New Set 3</div>
+            <div class="box"></div>
+        </div>
+    </div>
+    
+    <div id="extraBoxes" style="display: none;">
+        <div id="extraSet1" onclick="selectExtraSet('extraSet1')">
+            <div class="label">Extra Set 1</div>
+            <div class="box"></div>
+        </div>
+        <div id="extraSet2" onclick="selectExtraSet('extraSet2')">
+            <div class="label">Extra Set 2</div>
+            <div class="box"></div>
+        </div>
+        <div id="extraSet3" onclick="selectExtraSet('extraSet3')">
+            <div class="label">Extra Set 3</div>
+            <div class="box"></div>
+        </div>
+    </div>
+    </div>
+
+    <div id="message"></div>
+    <button id="playAgainButton" style="display: none;">Play Again</button>
+
+    <script>
+        document.getElementById('startButton').addEventListener('click', function() {
+            const set1 = document.getElementById('set1');
+            const set2 = document.getElementById('set2');
+            const set3 = document.getElementById('set3');
+            
+            set1.innerHTML = '';
+            set2.innerHTML = '';
+            set3.innerHTML = '';
+
+            for (let i = 1; i <= 21; i++) {
+                if (i % 3 === 1) {
+                    set1.innerHTML += i + (i < 21 ? ', ' : '');
+                } else if (i % 3 === 2) {
+                    set2.innerHTML += i + (i < 21 ? ', ' : '');
+                } else {
+                    set3.innerHTML += i + (i < 21 ? ', ' : '');
+                }
+            }
+            document.getElementById('result').style.display = 'none';
+            document.getElementById('playAgainButton').style.display = 'none';
+            document.getElementById('newBoxes').style.display = 'none'; // Ensure new boxes are hidden
+            document.getElementById('extraBoxes').style.display = 'none'; // Ensure extra boxes are hidden
+        });
+
+        function createNumberLine() {
+            const numberLine = document.getElementById('numberLine');
+            for (let i = 1; i <= 21; i++) {
+                const numberDiv = document.createElement('div');
+                numberDiv.className = 'number';
+                numberDiv.innerText = i;
+                numberLine.appendChild(numberDiv);
+            }
+        }
+
+        function selectSet(numbers) {
+            const messageDiv = document.getElementById('message');
+            <!-- messageDiv.innerText = 'You selected: ' + numbers.join(', '); -->
+
+            createNewNumberLine(numbers);
+            document.getElementById('boxes').style.display = 'none'; // Hide current sets
+            document.getElementById('newBoxes').style.display = 'flex'; // Show new sets
+        }
+
+        function createNewNumberLine(selectedNumbers) {
+            const newLine = [];
+            const allNumbers = Array.from({length: 21}, (_, i) => i + 1);
+            const remainingNumbers = allNumbers.filter(num => !selectedNumbers.includes(num));
+            const firstHalf = remainingNumbers.slice(0, Math.ceil(remainingNumbers.length / 2));
+            const secondHalf = remainingNumbers.slice(Math.ceil(remainingNumbers.length / 2));
+            newLine.push(...firstHalf, ...selectedNumbers, ...secondHalf);
+            updateNewBoxes(newLine);
+        }
+
+        function updateNewBoxes(newLine) {
+            const newSet1 = document.querySelector('#newSet1 .box');
+            const newSet2 = document.querySelector('#newSet2 .box');
+            const newSet3 = document.querySelector('#newSet3 .box');
+
+            newSet1.innerHTML = '';
+            newSet2.innerHTML = '';
+            newSet3.innerHTML = '';
+
+            for (let i = 0; i < newLine.length; i++) {
+                if (i % 3 === 0) {
+                    newSet1.innerHTML += newLine[i] + (i < newLine.length - 1 ? ', ' : '');
+                } else if (i % 3 === 1) {
+                    newSet2.innerHTML += newLine[i] + (i < newLine.length - 1 ? ', ' : '');
+                } else {
+                    newSet3.innerHTML += newLine[i] + (i < newLine.length - 1 ? ', ' : '');
+                }
+            }
+        }
+
+        function selectNewSet(setId) {
+            const selectedSet = document.querySelector(`#${setId} .box`).innerHTML;
+            const messageDiv = document.getElementById('message');
+            const selectedNumbers = selectedSet.split(', ').map(Number);
+            createExtraNumberLine(selectedNumbers);
+            document.getElementById('newBoxes').style.display = 'none'; // Hide new sets
+            document.getElementById('extraBoxes').style.display = 'flex'; // Show extra sets
+        }
+
+        function createExtraNumberLine(selectedNumbers) {
+            const extraLine = [];
+            const allNumbers = Array.from({length: 21}, (_, i) => i + 1);
+            const remainingNumbers = allNumbers.filter(num => !selectedNumbers.includes(num));
+            const firstHalf = remainingNumbers.slice(0, Math.ceil(remainingNumbers.length / 2));
+            const secondHalf = remainingNumbers.slice(Math.ceil(remainingNumbers.length / 2));
+            extraLine.push(...firstHalf, ...selectedNumbers, ...secondHalf);
+            updateExtraBoxes(extraLine);
+        }
+
+        function updateExtraBoxes(extraLine) {
+            const extraSet1 = document.querySelector('#extraSet1 .box');
+            const extraSet2 = document.querySelector('#extraSet2 .box');
+            const extraSet3 = document.querySelector('#extraSet3 .box');
+
+            extraSet1.innerHTML = '';
+            extraSet2.innerHTML = '';
+            extraSet3.innerHTML = '';
+
+            for (let i = 0; i < extraLine.length; i++) {
+                if (i % 3 === 0) {
+                    extraSet1.innerHTML += extraLine[i] + (i < extraLine.length - 1 ? ', ' : '');
+                } else if (i % 3 === 1) {
+                    extraSet2.innerHTML += extraLine[i] + (i < extraLine.length - 1 ? ', ' : '');
+                } else {
+                    extraSet3.innerHTML += extraLine[i] + (i < extraLine.length - 1 ? ', ' : '');
+                }
+            }
+        }
+
+        function selectExtraSet(setId) {
+            const selectedSet = document.querySelector(`#${setId} .box`).innerHTML;
+            const selectedNumbers = selectedSet.split(', ').map(Number);
+            const fourthNumber = selectedNumbers[3]; // Get the fourth number
+
+            const resultDiv = document.getElementById('result');
+            resultDiv.innerText = 'Your number is: ' + (fourthNumber !== undefined ? fourthNumber : 'N/A');
+            resultDiv.style.display = 'block'; // Show the result
+            document.getElementById('playAgainButton').style.display = 'block'; // Show play again button
+        }
+
+        document.getElementById('playAgainButton').addEventListener('click', function() {
+            // Reset all boxes and message
+            document.getElementById('message').innerText = '';
+            document.getElementById('result').innerText = '';
+            document.getElementById('result').style.display = 'none';
+            document.getElementById('playAgainButton').style.display = 'none';
+
+            // Clear all number lines and boxes
+            document.getElementById('numberLine').innerHTML = '';
+            document.querySelectorAll('#boxes .box').forEach(box => box.innerHTML = '');
+            document.querySelectorAll('#newBoxes .box').forEach(box => box.innerHTML = '');
+            document.querySelectorAll('#extraBoxes .box').forEach(box => box.innerHTML = '');
+
+            // Show the original boxes
+            document.getElementById('boxes').style.display = 'flex';
+            document.getElementById('newBoxes').style.display = 'none';
+            document.getElementById('extraBoxes').style.display = 'none';
+
+            // Recreate the number line
+            createNumberLine();
+        });
+        createNumberLine();
+    </script>
 
   <!-- Content -->
   <div class="w3-content" style="max-width:1920px;margin-top:40px;margin-bottom:40px">
