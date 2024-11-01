@@ -92,7 +92,95 @@
           <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Leave A Message</span>
         </div>
 
-        <!-- Insert your message below here -->       
+        <!-- Insert your message below here -->
+        
+        <!-- Message from Alexis -->
+        <style>
+          div.msg-alexis {
+            background-color: rgb(26, 89, 224);
+            border: 5px solid orangered;
+            border-radius: 50%;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.5rem;
+            margin: 2rem auto;
+            max-width: 460px;
+            padding: 4rem;
+            text-align: center;
+          }
+          div.msg-alexis h2 {
+            display: flex;
+            justify-content: center;
+            letter-spacing: 5px;
+          }
+          div.msg-alexis h2 strong {
+            color: black;
+          }
+          p.msg-message {
+            color: yellow;
+          }
+          h2.msg-from span,
+          h2.msg-to span {
+            display: inline-block;
+          }
+          h2.msg-from span {
+            animation: rebote 0.6s ease 0.1s infinite;
+          }
+          h2.msg-to span {
+            animation: rebote 0.9s ease 0.1s infinite;
+          }
+          h2.msg-from span:nth-child(2),
+          h2.msg-to span:nth-child(2) {
+            animation-delay: 0.2s;
+          }
+          h2.msg-from span:nth-child(3),
+          h2.msg-to span:nth-child(3) {
+            animation-delay: 0.3s;
+          }
+          h2.msg-from span:nth-child(4),
+          h2.msg-to span:nth-child(4) {
+            animation-delay: 0.4s;
+          }
+          h2.msg-from span:nth-child(5),
+          h2.msg-to span:nth-child(5) {
+            animation-delay: 0.5s;
+          }
+          h2.msg-from span:nth-child(6),
+          h2.msg-to span:nth-child(6) {
+            animation-delay: 0.6s;
+          }
+          h2.msg-to span:nth-child(7) {
+            animation-delay: 0.7s;
+          }
+          h2.msg-to span:nth-child(8) {
+            animation-delay: 0.8s;
+          }
+          h2.msg-to span:nth-child(9) {
+            animation-delay: 0.9s;
+          }
+          @keyframes rebote {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+          }
+        </style>
+        <div class="msg-alexis" lang="es">
+          <h2 class="msg-from">
+            <strong>DE: &nbsp;&nbsp;&nbsp;&nbsp;</strong>
+            <span>A</span><span>l</span><span>e</span><span>x</span><span>i</span><span>s</span>
+          </h2>
+          <h2 class="msg-to">
+            <strong>PARA: &nbsp;</strong>
+            <span>W</span><span>3</span><span>S</span><span>c</span><span>h</span><span>o</span><span>o</span><span>l</span><span>s</span>
+          </h2>
+          <p class="msg-message">
+            Agradecer a W3Schools por la oportunidad de aprender con sus tutoriales y todo el material de estudios.
+          </p>
+        </div>
+        <!-- End message from Alexis -->
 
         <p>Thank you for your excelent training, <strong>chris.</strong></p>
 
