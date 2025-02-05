@@ -17,8 +17,6 @@ We will not allow messages that are negative, or hurtful. Try to be welcome and 
 You can add almost anything to the index.html file between the indicated comments:
 
 `<!-- Insert your message below here -->`
-Hello w3schools
-New message.
 New message
 
 `<!-- End user messages -->`
