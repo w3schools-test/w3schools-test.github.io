@@ -26,3 +26,9 @@ And add your name to it :)
 
 We reserve the right to remove, or not to add anything that we feel will not fit here.
 Also, this page is a community page, and the content you add may be changed later.
+
+# This is the garagraph added tho the file
+The beautyfull of nature is something that never fails to amaze me. 
+Whether it's the vibrant colors of a sunset, the sound of leaves rustling in the wind, or the vastness of the ocean stretching to the ----------
+There's always something new to appreciate.
+Nature has a way of daily life... 
