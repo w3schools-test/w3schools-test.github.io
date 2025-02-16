@@ -15,9 +15,9 @@ We will not allow messages that are negative, or hurtful. Try to be welcome and 
 
 You can add almost anything to the index.html file between the indicated comments:
 
-`<!-- Insert your message below here -->`
+`Hello World!`
 
-`<!-- End user messages -->`
+`Hello End World!`
 
 So feel free to use your imagination!
 
