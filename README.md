@@ -15,8 +15,8 @@ We will not allow messages that are negative, or hurtful. Try to be welcome and 
 
 You can add almost anything to the index.html file between the indicated comments:
 
-Testing Git & Github
-
+`<!-- Insert your message below here -->`
+I removed,added and updated files to make this able to serve as public guest book. Future changes should be only to index.html
 `<!-- End user messages -->`
 
 So feel free to use your imagination!
