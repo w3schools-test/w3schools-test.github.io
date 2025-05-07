@@ -8,7 +8,7 @@ This repository is meant to be a place where our users can leave messages for ot
 
 You can see the result here: https://w3schools-test.github.io/
 
-We generally only have one condition: 
+We generally only have one condition:
 We will not allow messages that are negative, or hurtful. Try to be welcome and positive!
 
 # What should my message look like?
@@ -16,7 +16,7 @@ We will not allow messages that are negative, or hurtful. Try to be welcome and 
 You can add almost anything to the index.html file between the indicated comments:
 
 `<!-- Insert your message below here -->`
-
+Hello fren
 `<!-- End user messages -->`
 
 So feel free to use your imagination!
