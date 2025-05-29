@@ -100,6 +100,232 @@
                 <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Leave A Message</span>
             </div>
        <!-- Insert your message below here -->
+        <!-- Message from Arjun -->
+        <style>
+            @keyframes arjunDarkFadeIn {
+                from {
+                    opacity: 0;
+                    transform: translateY(40px);
+                }
+                to {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+            @keyframes arjunDarkGlow {
+                0%, 100% { 
+                    box-shadow: 0 0 20px rgba(0, 255, 255, 0.3), 0 0 40px rgba(0, 255, 255, 0.1);
+                }
+                50% { 
+                    box-shadow: 0 0 30px rgba(0, 255, 255, 0.5), 0 0 60px rgba(0, 255, 255, 0.2);
+                }
+            }
+            @keyframes arjunTextGlow {
+                0%, 100% { text-shadow: 0 0 10px rgba(0, 255, 255, 0.5); }
+                50% { text-shadow: 0 0 20px rgba(0, 255, 255, 0.8), 0 0 30px rgba(0, 255, 255, 0.4); }
+            }
+            @keyframes arjunSlideIn {
+                from { transform: translateX(-100px); opacity: 0; }
+                to { transform: translateX(0); opacity: 1; }
+            }
+            @keyframes arjunMatrixRain {
+                0% { transform: translateY(-100%); opacity: 1; }
+                100% { transform: translateY(100%); opacity: 0; }
+            }
+            @keyframes arjunFloatingParticles {
+                0% { transform: translateY(0px) translateX(0px); opacity: 0.3; }
+                50% { transform: translateY(-20px) translateX(10px); opacity: 0.7; }
+                100% { transform: translateY(-40px) translateX(-5px); opacity: 0; }
+            }
+            @keyframes arjunFloatingParticles2 {
+                0% { transform: translateY(0px) translateX(0px) scale(0.5); opacity: 0.2; }
+                50% { transform: translateY(-30px) translateX(-10px) scale(1.2); opacity: 0.8; }
+                100% { transform: translateY(-60px) translateX(5px) scale(0.3); opacity: 0; }
+            }
+            @keyframes arjunFloatingParticles3 {
+                0% { transform: translateY(0px) translateX(0px) rotate(0deg); opacity: 0.4; }
+                50% { transform: translateY(-25px) translateX(15px) rotate(180deg); opacity: 0.9; }
+                100% { transform: translateY(-50px) translateX(-10px) rotate(360deg); opacity: 0; }
+            }
+            @keyframes arjunGridMove {
+                0% { transform: translate(0, 0); }
+                100% { transform: translate(-50px, -50px); }
+            }
+            @keyframes arjunWaveEffect {
+                0%, 100% { transform: translateX(0); }
+                50% { transform: translateX(20px); }
+            }
+            .arjun-dark-container {
+                margin: 40px 0;
+                width: 100%;
+                padding: 60px 20px;
+                background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 35%, #16213e 65%, #0f3460 100%);
+                border: 2px solid #00ffff;
+                border-radius: 15px;
+                color: #ffffff;
+                font-family: 'Courier New', monospace;
+                text-align: center;
+                position: relative;
+                overflow: hidden;
+                animation: arjunDarkFadeIn 1.5s ease-out, arjunDarkGlow 3s ease-in-out infinite;
+                backdrop-filter: blur(10px);
+                min-height: 300px;
+            }
+            .arjun-dark-container::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: -100%;
+                width: 100%;
+                height: 100%;
+                background: linear-gradient(90deg, transparent, rgba(0, 255, 255, 0.1), transparent);
+                animation: arjunSlideIn 2s ease-out 0.5s;
+            }
+            .arjun-dark-container:hover {
+                transform: scale(1.01);
+                transition: transform 0.3s ease;
+            }
+            .arjun-animated-bg {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                z-index: -1;
+                overflow: hidden;
+            }
+            .arjun-matrix-rain {
+                position: absolute;
+                color: #00ff00;
+                font-family: 'Courier New', monospace;
+                font-size: 14px;
+                opacity: 0.3;
+                animation: arjunMatrixRain 8s linear infinite;
+            }
+            .arjun-matrix-rain:nth-child(1) { left: 10%; animation-delay: 0s; }
+            .arjun-matrix-rain:nth-child(2) { left: 25%; animation-delay: 1s; }
+            .arjun-matrix-rain:nth-child(3) { left: 40%; animation-delay: 2s; }
+            .arjun-matrix-rain:nth-child(4) { left: 55%; animation-delay: 3s; }
+            .arjun-matrix-rain:nth-child(5) { left: 70%; animation-delay: 4s; }
+            .arjun-matrix-rain:nth-child(6) { left: 85%; animation-delay: 5s; }
+            .arjun-floating-particles {
+                position: absolute;
+                width: 4px;
+                height: 4px;
+                background: #00ffff;
+                border-radius: 50%;
+                animation: arjunFloatingParticles 6s ease-in-out infinite;
+            }
+            .arjun-floating-particles.small {
+                width: 2px;
+                height: 2px;
+                background: #00ff88;
+                animation: arjunFloatingParticles2 8s ease-in-out infinite;
+            }
+            .arjun-floating-particles.medium {
+                width: 6px;
+                height: 6px;
+                background: #88ffff;
+                animation: arjunFloatingParticles3 7s ease-in-out infinite;
+            }
+            .arjun-floating-particles:nth-child(7) { left: 20%; top: 80%; animation-delay: 0s; }
+            .arjun-floating-particles:nth-child(8) { left: 60%; top: 70%; animation-delay: 2s; }
+            .arjun-floating-particles:nth-child(9) { left: 80%; top: 85%; animation-delay: 4s; }
+            .arjun-floating-particles:nth-child(10) { left: 15%; top: 60%; animation-delay: 1s; }
+            .arjun-floating-particles:nth-child(11) { left: 35%; top: 90%; animation-delay: 3s; }
+            .arjun-floating-particles:nth-child(12) { left: 75%; top: 55%; animation-delay: 5s; }
+            .arjun-floating-particles:nth-child(13) { left: 45%; top: 75%; animation-delay: 0.5s; }
+            .arjun-floating-particles:nth-child(14) { left: 65%; top: 95%; animation-delay: 2.5s; }
+            .arjun-floating-particles:nth-child(15) { left: 85%; top: 65%; animation-delay: 4.5s; }
+            .arjun-floating-particles:nth-child(16) { left: 5%; top: 85%; animation-delay: 1.5s; }
+            .arjun-floating-particles:nth-child(17) { left: 25%; top: 50%; animation-delay: 3.5s; }
+            .arjun-floating-particles:nth-child(18) { left: 55%; top: 80%; animation-delay: 6s; }
+            .arjun-floating-particles:nth-child(19) { left: 90%; top: 75%; animation-delay: 0.8s; }
+            .arjun-floating-particles:nth-child(20) { left: 12%; top: 65%; animation-delay: 2.8s; }
+            .arjun-floating-particles:nth-child(21) { left: 72%; top: 45%; animation-delay: 4.8s; }
+            .arjun-floating-particles:nth-child(22) { left: 38%; top: 60%; animation-delay: 1.2s; }
+            .arjun-floating-particles:nth-child(23) { left: 82%; top: 90%; animation-delay: 3.2s; }
+            .arjun-floating-particles:nth-child(24) { left: 52%; top: 40%; animation-delay: 5.2s; }
+            .arjun-grid-bg {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 120%;
+                height: 120%;
+                background-image: 
+                    linear-gradient(rgba(0, 255, 255, 0.1) 1px, transparent 1px),
+                    linear-gradient(90deg, rgba(0, 255, 255, 0.1) 1px, transparent 1px);
+                background-size: 50px 50px;
+                animation: arjunGridMove 20s linear infinite;
+                opacity: 0.3;
+            }
+            .arjun-dark-title {
+                font-size: 3em;
+                font-weight: bold;
+                margin-bottom: 30px;
+                color: #00ffff;
+                animation: arjunTextGlow 2s ease-in-out infinite;
+                text-transform: uppercase;
+                letter-spacing: 3px;
+                z-index: 10;
+                position: relative;
+            }
+            .arjun-dark-content {
+                font-size: 1.3em;
+                line-height: 1.8;
+                margin-bottom: 35px;
+                color: #e0e0e0;
+                text-align: center;
+                padding: 30px;
+                background: rgba(0, 0, 0, 0.4);
+                border: 1px solid rgba(0, 255, 255, 0.3);
+                border-radius: 10px;
+                max-width: 600px;
+                margin: 0 auto;
+                z-index: 10;
+                position: relative;
+                animation: arjunWaveEffect 4s ease-in-out infinite;
+            }
+            .arjun-terminal-prompt {
+                color: #00ff00;
+                font-family: 'Courier New', monospace;
+            }
+        </style>
+        <div class="arjun-dark-container">
+            <div class="arjun-animated-bg">
+                <div class="arjun-grid-bg"></div>
+                <div class="arjun-matrix-rain">01010101</div>
+                <div class="arjun-matrix-rain">11001100</div>
+                <div class="arjun-matrix-rain">10101010</div>
+                <div class="arjun-matrix-rain">01100110</div>
+                <div class="arjun-matrix-rain">11110000</div>
+                <div class="arjun-matrix-rain">00001111</div>
+                <div class="arjun-floating-particles"></div>
+                <div class="arjun-floating-particles"></div>
+                <div class="arjun-floating-particles"></div>
+                <div class="arjun-floating-particles small"></div>
+                <div class="arjun-floating-particles small"></div>
+                <div class="arjun-floating-particles medium"></div>
+                <div class="arjun-floating-particles small"></div>
+                <div class="arjun-floating-particles"></div>
+                <div class="arjun-floating-particles medium"></div>
+                <div class="arjun-floating-particles small"></div>
+                <div class="arjun-floating-particles"></div>
+                <div class="arjun-floating-particles small"></div>
+                <div class="arjun-floating-particles medium"></div>
+                <div class="arjun-floating-particles small"></div>
+                <div class="arjun-floating-particles"></div>
+                <div class="arjun-floating-particles small"></div>
+                <div class="arjun-floating-particles medium"></div>
+                <div class="arjun-floating-particles small"></div>
+            </div>
+            <h2 class="arjun-dark-title">github.com/arjunbalu1</h2>
+            <div class="arjun-dark-content">
+                <span class="arjun-terminal-prompt">arjun@developer:~$</span> echo "arjun was here"
+            </div>
+        </div>
+        <!-- End Message from Arjun -->
+    
 	
 	<!-- Message from foetus -->
 	<h3>Thanks W3S from foetus (Italy). grazie ;)...</h3>
