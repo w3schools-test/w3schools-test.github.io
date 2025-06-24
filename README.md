@@ -15,8 +15,7 @@ We will not allow messages that are negative, or hurtful. Try to be welcome and 
 
 You can add almost anything to the index.html file between the indicated comments:
 
-`<!-- Insert your message below here -->`
-
+ Hey am a guest trying to learn fork on github using w3 schools
 `<!-- End user messages -->`
 
 So feel free to use your imagination!
