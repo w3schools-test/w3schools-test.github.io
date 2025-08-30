@@ -6,7 +6,7 @@ This is the public GitHub project that you can contribute to.
 If you are just getting started, I suggest you start at the tutorial here: https://www.w3schools.com/git
 
 # Leave a message for us!
-This repository is meant to be a place where our users can leave messages for others to see.
+This repository is meant to be a place where our users can leave messages for others to see.this is worth for us
 
 You can see the result here: https://w3schools-test.github.io/
 
