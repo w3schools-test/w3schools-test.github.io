@@ -1,6 +1,6 @@
 # Guestbook for w3schools.com Git tutorial
 
-hi i'm senuth de silwa
+hi i'm senuth de silwa.this is a one more learning example.
 
 This is the public GitHub project that you can contribute to.
 If you are just getting started, I suggest you start at the tutorial here: https://www.w3schools.com/git
