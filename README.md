@@ -21,6 +21,8 @@ You can add almost anything to the index.html file between the indicated comment
 
 So feel free to use your imagination!
 
+Thank You!!!
+
 If you are not feeling very creative, you can add a quote, or small text like the examples on this page: https://www.w3schools.com/w3css/w3css_quotes.asp
 And add your name to it :)
 
