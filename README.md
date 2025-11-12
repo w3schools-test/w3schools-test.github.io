@@ -16,7 +16,8 @@ We will not allow messages that are negative, or hurtful. Try to be welcome and 
 You can add almost anything to the index.html file between the indicated comments:
 
 `<!-- Insert your message below here -->`
-
+I add these two lines
+to make a test
 `<!-- End user messages -->`
 
 So feel free to use your imagination!
@@ -27,7 +28,4 @@ And add your name to it :)
 We reserve the right to remove, or not to add anything that we feel will not fit here.
 Also, this page is a community page, and the content you add may be changed later.
 
-****
-I add these two lines
-to make a test
-***
+
