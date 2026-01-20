@@ -1,8 +1,4 @@
 /.vscode/
 
 log/
-
-temp/
-*.py
-m7.txt
-log5.txt
+ temp/
