@@ -3,3 +3,9 @@
 log/
  temp/
 loops*.py
+my1ile.txt
+myAile.txt
+myfile.txt
+*.log
+!important.log
+debug.log
