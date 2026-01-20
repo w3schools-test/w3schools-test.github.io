@@ -3,4 +3,6 @@
 log/
 
 temp/
-*.tmp
+*.py
+m7.txt
+log5.txt
