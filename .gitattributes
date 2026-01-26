@@ -1,0 +1,4 @@
+*.txt text eol=lf
+*.sh text eol=lf
+*.png binary
+*.psd filter=lfs diff=lfs merge=lfs -text

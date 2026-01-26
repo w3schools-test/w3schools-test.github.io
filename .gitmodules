@@ -1,0 +1,3 @@
+[submodule "python-exercises"]
+	path = python-exercises
+	url = https://github.com/Krishna-1605/python-exercises.git
