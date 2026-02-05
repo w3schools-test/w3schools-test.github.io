@@ -16,7 +16,10 @@ We will not allow messages that are negative, or hurtful. Try to be welcome and 
 You can add almost anything to the index.html file between the indicated comments:
 
 `<!-- Insert your message below here -->`
-
+    <!-- Message from Mor Diouf -->
+        I love all messages from the guestbook.I suggest all new visiters to take time for reading some of them.
+        Thanks W3school for this amazing community.
+    <!-- End Message from Mor Diouf -->
 `<!-- End user messages -->`
 
 So feel free to use your imagination!
