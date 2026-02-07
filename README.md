@@ -11,6 +11,8 @@ You can see the result here: https://w3schools-test.github.io/
 We generally only have one condition: 
 We will not allow messages that are negative, or hurtful. Try to be welcome and positive!
 
+Here is a positive message! I am happy to be a part of this project!
+
 # What should my message look like?
 
 You can add almost anything to the index.html file between the indicated comments:
