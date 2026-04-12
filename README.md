@@ -19,6 +19,8 @@ You can add almost anything to the index.html file between the indicated comment
 
 I have completed and understood the git and github by reading w3schools
 
+another changess
+
 `<!-- End user messages -->`
 
 So feel free to use your imagination!
