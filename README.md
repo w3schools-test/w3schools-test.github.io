@@ -17,6 +17,18 @@ You can add almost anything to the index.html file between the indicated comment
 
 `<!-- Insert your message below here -->`
 
+Dear W3Schools Team,
+
+I am writing this to express my deepest gratitude for everything you do for the global developer community. Your high-quality, free tutorials and accessible documentation have been a lighthouse for countless programmers, including myself, as we navigate our learning journeys.
+
+Thank you for making education free, clear, and available to everyone. You truly make the web a better place to learn!
+
+Best regards,
+
+LandryONGONE
+
+P.S. I must confess: this message was written by an AI... but don't worry, the gratitude is 100% human and sincere!
+
 `<!-- End user messages -->`
 
 So feel free to use your imagination!
