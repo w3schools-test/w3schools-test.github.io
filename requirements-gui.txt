@@ -1,0 +1,2 @@
+# Install for GUI: pip install -r requirements-gui.txt
+gradio>=4.0.0
