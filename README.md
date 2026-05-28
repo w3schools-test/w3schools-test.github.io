@@ -1,6 +1,6 @@
 # Guestbook for w3schools.com Git tutorial
 
-This is the public GitHub project that you can contribute to.
+This is the  GitHub project that you can contribute to.
 If you are just getting started, I suggest you start at the tutorial here: https://www.w3schools.com/git
 
 # Leave a message for us!
@@ -15,7 +15,7 @@ We will not allow messages that are negative, or hurtful. Try to be welcome and 
 
 You can add almost anything to the index.html file between the indicated comments:
 
-`<!-- Insert your message below here -->`
+`<!-- awaiting changes -->`
 
 `<!-- End user messages -->`
 
