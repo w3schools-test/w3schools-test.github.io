@@ -15,7 +15,7 @@ We will not allow messages that are negative, or hurtful. Try to be welcome and 
 
 `<!-- i am grateful to w3schools for this opportunity to learn git and github. tho this is the beginning of my journey into data engineering -->`
 
-`<!-- i hope i make money to pay for the full course -->`
+`<!-- message from MysteriousOracle -->`
 
 So feel free to use your imagination!
 
