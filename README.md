@@ -11,13 +11,11 @@ You can see the result here: https://w3schools-test.github.io/
 We generally only have one condition: 
 We will not allow messages that are negative, or hurtful. Try to be welcome and positive!
 
-# What should my message look like?
+# my appreciation message
 
-You can add almost anything to the index.html file between the indicated comments:
+`<!-- i am grateful to w3schools for this opportunity to learn git and github. tho this is the beginning of my journey into data engineering -->`
 
-`<!-- Insert your message below here -->`
-
-`<!-- End user messages -->`
+`<!-- i hope i make money to pay for the full course -->`
 
 So feel free to use your imagination!
 
