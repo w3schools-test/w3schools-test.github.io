@@ -26,6 +26,10 @@
             font-family: "Lato", sans-serif;
         }
 
+        html {
+            scroll-behavior: smooth;
+        }
+
         .w3-tag {
             height: 156px;
             width: 15px;
@@ -25097,7 +25101,7 @@ margin: 0 auto;">
     </div>
     <!-- Footer -->
     <footer class="w3-container w3-padding-32 w3-light-grey w3-center">
-        <a href="#" class="w3-button w3-black w3-margin">
+        <a href="#" id="backToTopBtn" class="w3-button w3-black w3-margin">
             To the top
         </a>
         <p>
@@ -25108,6 +25112,23 @@ margin: 0 auto;">
             </a>
         </p>
     </footer>
+    <script>
+        var backToTopBtn = document.getElementById("backToTopBtn");
+        window.onscroll = function () {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                backToTopBtn.style.display = "block";
+            } else {
+                backToTopBtn.style.display = "none";
+            }
+        };
+        backToTopBtn.addEventListener("click", function () {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        });
+        window.onload = function () {
+            backToTopBtn.style.display = "none";
+        };
+    </script>
 </body>
 
 </html>
