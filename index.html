@@ -33,6 +33,58 @@
             margin-top: 6px;
             cursor: pointer;
         }
+
+        .m0v1-typewriter {
+            margin: 24px 0;
+            padding: clamp(16px, 4vw, 32px);
+            border-left: 5px solid #04aa6d;
+            border-radius: 8px;
+            background: #18212b;
+            color: #f1f5f9;
+        }
+
+        .m0v1-typewriter-line {
+            display: grid;
+            font: clamp(16px, 2vw, 22px) / 1.6 monospace;
+            overflow-wrap: anywhere;
+        }
+
+        .m0v1-typewriter-line > span {
+            grid-area: 1 / 1;
+            min-width: 0;
+        }
+
+        .m0v1-typewriter [hidden] {
+            display: none;
+        }
+
+        .m0v1-typewriter.is-typing .m0v1-typewriter-full {
+            opacity: 0;
+        }
+
+        .m0v1-typewriter-output.is-current::after {
+            content: "";
+            display: inline-block;
+            height: 1em;
+            margin-left: 3px;
+            border-right: 2px solid #67e8b5;
+            vertical-align: -0.1em;
+            animation: m0v1-caret 1s steps(1) infinite;
+        }
+
+        .m0v1-typewriter.is-paused .m0v1-typewriter-output::after {
+            animation-play-state: paused;
+        }
+
+        @keyframes m0v1-caret {
+            50% { opacity: 0; }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            .m0v1-typewriter-output.is-current::after {
+                animation: none;
+            }
+        }
     </style>
 </head>
 
@@ -131,6 +183,112 @@
                 </span>
             </div>
             <!-- Insert your message below here -->
+            <!-- Message from m0v1 -->
+            <section class="m0v1-typewriter" id="m0v1-typewriter" aria-label="Message from m0v1">
+                <p class="m0v1-typewriter-line">
+                    <span class="m0v1-typewriter-full">Hello, Git community!</span>
+                    <span class="m0v1-typewriter-output" aria-hidden="true" hidden></span>
+                </p>
+                <p class="m0v1-typewriter-line">
+                    <span class="m0v1-typewriter-full">Every commit is progress.</span>
+                    <span class="m0v1-typewriter-output" aria-hidden="true" hidden></span>
+                </p>
+                <p class="m0v1-typewriter-line">
+                    <span class="m0v1-typewriter-full">Keep learning. Keep sharing.</span>
+                    <span class="m0v1-typewriter-output" aria-hidden="true" hidden></span>
+                </p>
+                <p>Thanks for the Git tutorial, W3Schools! &mdash; m0v1, November 6, 2026</p>
+                <button type="button" class="w3-button w3-round w3-green" hidden>Pause animation</button>
+            </section>
+            <script>
+                (() => {
+                    const card = document.getElementById("m0v1-typewriter");
+                    const motion = window.matchMedia("(prefers-reduced-motion: reduce)");
+                    if (motion.matches) return;
+
+                    const lines = Array.from(card.querySelectorAll(".m0v1-typewriter-line"));
+                    const messages = lines.map((line) => Array.from(line.querySelector(".m0v1-typewriter-full").textContent));
+                    const outputs = lines.map((line) => line.querySelector(".m0v1-typewriter-output"));
+                    const button = card.querySelector("button");
+                    let lineIndex = 0;
+                    let characterIndex = 0;
+                    let erasing = false;
+                    let paused = false;
+                    let started = false;
+                    let timer;
+
+                    function typeNextCharacter() {
+                        if (paused || motion.matches) return;
+                        const output = outputs[lineIndex];
+                        output.classList.add("is-current");
+                        characterIndex += erasing ? -1 : 1;
+                        output.textContent = messages[lineIndex].slice(0, characterIndex).join("");
+                        let delay = erasing ? 25 : 45;
+
+                        if (!erasing && characterIndex === messages[lineIndex].length) {
+                            if (lineIndex === lines.length - 1) {
+                                erasing = true;
+                                delay = 1800;
+                            } else {
+                                output.classList.remove("is-current");
+                                lineIndex++;
+                                characterIndex = 0;
+                                delay = 250;
+                            }
+                        } else if (erasing && characterIndex === 0) {
+                            output.classList.remove("is-current");
+                            if (lineIndex === 0) {
+                                erasing = false;
+                                delay = 500;
+                            } else {
+                                lineIndex--;
+                                characterIndex = messages[lineIndex].length;
+                                delay = 150;
+                            }
+                        }
+                        timer = setTimeout(typeNextCharacter, delay);
+                    }
+
+                    function startTyping() {
+                        if (started || motion.matches) return;
+                        started = true;
+                        card.classList.add("is-typing");
+                        outputs.forEach((output) => {
+                            output.textContent = "";
+                            output.hidden = false;
+                        });
+                        typeNextCharacter();
+                    }
+
+                    button.hidden = false;
+                    button.addEventListener("click", () => {
+                        paused = !paused;
+                        card.classList.toggle("is-paused", paused);
+                        button.textContent = paused ? "Resume animation" : "Pause animation";
+                        if (paused) clearTimeout(timer);
+                        else typeNextCharacter();
+                    });
+                    motion.addEventListener("change", () => {
+                        if (!motion.matches) return;
+                        clearTimeout(timer);
+                        card.classList.remove("is-typing", "is-paused");
+                        outputs.forEach((output) => { output.hidden = true; });
+                        button.hidden = true;
+                    });
+                    if ("IntersectionObserver" in window) {
+                        const observer = new IntersectionObserver((entries) => {
+                            if (entries.some((entry) => entry.isIntersecting)) {
+                                observer.disconnect();
+                                startTyping();
+                            }
+                        }, { threshold: 0.25 });
+                        observer.observe(card);
+                    } else {
+                        startTyping();
+                    }
+                })();
+            </script>
+            <!-- End message from m0v1 -->
             <!-- Message from Sven -->
             <div class="w3-panel w3-leftbar w3-blue">
                     <p class="w3-xxlarge w3-monospace">
