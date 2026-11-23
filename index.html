@@ -33,6 +33,33 @@
             margin-top: 6px;
             cursor: pointer;
         }
+        .loader-container h1{
+            background-color: #dfdfdf;
+            padding: 5px 20px;
+            border-left: 7px solid green;
+            
+        }
+        .loader{
+            margin: auto ;
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            border-width: 5px;
+            border-style: groove;
+            border-top-color: #0030dd;
+            border-bottom-color: #006600;
+            border-left-color: #02446c;
+            border-right: none;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin {
+            from{
+                transform: rotate(0);
+            }
+            to{
+                transform: rotate(360deg);
+            }
+        }
     </style>
 </head>
 
@@ -131,6 +158,12 @@
                 </span>
             </div>
             <!-- Insert your message below here -->
+            <!-- Message from Subroto Kumar -->
+            <div class="loader-container">
+                <h1>It's just a simple loader.</h1>
+                <div class="loader"></div>
+            </div>
+            <!-- Message End from Subroto Kumar -->
             <!-- Message from Sven -->
             <div class="w3-panel w3-leftbar w3-blue">
                     <p class="w3-xxlarge w3-monospace">
